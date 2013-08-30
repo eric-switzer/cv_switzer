@@ -1,0 +1,64 @@
+%\documentclass[letterpaper, 10pt]{article}
+\documentclass[letterpaper, 9pt]{article}
+\usepackage[english]{babel}
+%\usepackage[mediumspace]{SIunits}
+\usepackage{fancyheadings}
+\usepackage{fancyvrb}
+\usepackage{enumitem}
+%\usepackage{hyperref}
+\usepackage[breaklinks]{hyperref}
+\usepackage{geometry}
+\usepackage{ifpdf}
+\usepackage{times}
+\usepackage{amsmath}
+\usepackage{color}
+\input{definitions}
+
+\geometry{textheight=8.5in, textwidth=6in}
+\setlength\parindent{0em}
+\setlength{\leftmargini}{0em}
+\renewcommand{\labelitemi}{}
+\renewcommand{\rmdefault}{phv} 
+\renewcommand{\sfdefault}{phv} 
+
+\hypersetup{
+  letterpaper,
+  colorlinks,
+  urlcolor=black,
+  pdfpagemode=none,
+  pdftitle={Curriculum Vitae},
+  pdfauthor={Eric R. Switzer},
+  pdfsubject={Curriculum Vitae}
+}
+
+\pagestyle{fancy}
+\headheight 35pt 
+
+\lhead{Curriculum Vitae}
+\rhead{Eric R. Switzer}
+\cfoot{\thepage}
+
+\begin{document}
+
+\thispagestyle{empty}
+{\Large\bf Eric R. Switzer}\\
+\HRule\\
+\addressminimal{\lastupdated}
+\background{$\rightarrow$}  
+\honors{$\rightarrow$} 
+\refereed{$\rightarrow$}
+~\\ \preprints{$\rightarrow$}
+%\newpage \preprints{$\rightarrow$}
+~\\ \reports{$\rightarrow$}
+%\positions{$\rightarrow$}
+\newpage \teachingservice{$\rightarrow$}
+\invitedtalks{$\rightarrow$}
+~\\ \uninvitedtalks{$\rightarrow$}
+%~\\ \hobbies
+%~\\ \recreferences{$\rightarrow$}
+
+%\talks{$\rightarrow$}
+%\meetings{$\rightarrow$}
+%\allpublications{$\rightarrow$}
+
+\end{document}

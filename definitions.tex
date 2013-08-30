@@ -1,0 +1,938 @@
+\newcommand{\lastupdated}{Aug. 4, 2013}
+
+\definecolor{light-gray}{gray}{0.60}
+\definecolor{dark-gray}{gray}{0.30}
+\newcommand{\ltgray}{\textcolor{light-gray}}
+\newcommand{\drkgray}{\textcolor{dark-gray}}
+%\newcommand{\reshead}[1]{\section*{#1}}
+\newcommand{\reshead}[1]{{\bfseries\large {#1}}}
+\newcommand{\linkarticle}[3]{{#1} \href{{#2}}{\small \drkgray{#3}}}
+\newcommand{\HRule}{\rule{\linewidth}{0.1mm}}
+\newenvironment{resitem}%
+  {\begin{itemize}[topsep=0pt, partopsep=0pt, itemsep=0pt, parsep=0pt, midpenalty=300]}%
+  {\end{itemize}\vspace{0.5cm}}
+
+%------------------------------------------------------------------------------
+% address, background, honors
+%------------------------------------------------------------------------------
+\newcommand{\addressminimal}[1]{
+\begin{minipage}[t]{0.5\textwidth}
+  \href{http://www.nasa.gov/centers/goddard/}{NASA Goddard Space Flight Center} \\
+  Observational Cosmology Laboratory (665) \\
+  Building 34, room E343 \\
+  Greenbelt, MD 20771
+\end{minipage}
+\begin{minipage}[t]{0.5\textwidth}
+  {\tt eric.r.switzer} \\
+  \href{https://github.com/eric-switzer}{\tt https://github.com/eric-switzer } \\
+  Dated: {#1}.
+\end{minipage}\vspace{0.5cm}
+}
+
+\newcommand{\background}[1]{
+\begin{resitem}
+\item \reshead{Employment and education}
+\item \href{http://www.nasa.gov/centers/goddard/}{Astrophysicist, NASA GSFC, Observational Cosmology Laboratory, 2013-} 
+\item 
+\item \href{http://cita.utoronto.ca/}{Senior Research Associate, CITA, University of Toronto, 2011-2013.}
+\item \href{http://kicp.uchicago.edu/}{Postdoctoral Fellow, Kavli Institute for Cosmological Physics, University of Chicago, 2008-2011.}
+\item \href{http://www.princeton.edu/}{Ph.D. Physics, Princeton University, 2008.}  
+\item \href{http://www.uchicago.edu}{B.A. Physics (with honors), University of Chicago, 2003.}
+\item US citizen.
+\end{resitem}
+
+Past and present research areas: instrumentation and data analysis for cosmic microwave background (CMB) experiments, cosmological helium recombination and reionization, mapping
+diffuse 21 cm emission at $z\sim 1$. Dissertation adviser: Lyman Page.  Title: {\it Small-scale anisotropies of the cosmic microwave background: Experimental and theoretical perspectives}.\\
+}
+
+\newcommand{\comptonhonors}{Compton Lecture Series, ``The Physics of Energy Devices," University of Chicago, fall 2009.}
+\newcommand{\comptonhonorshttp}[1]{\linkarticle{\comptonhonors}{http://cita.utoronto.ca/~eswitzer/compton/}{#1}}
+
+\newcommand{\honors}[1]{
+\begin{resitem}
+\item \reshead{Honors and awards}
+\item CITA Senior Research Associate, 2011-2013.
+\item \comptonhonorshttp{#1}
+\item KICP Postdoctoral Fellowship, University of Chicago, 2008-2011.
+\item Centennial Fellowship, Princeton University Graduate School, 2003-2008.
+\item Joseph Henry Merit Prize, Princeton University Graduate School, 2003.
+\item Member of Phi Beta Kappa, University of Chicago.
+\item DESY-Zeuthen Summer Student Research Fellowship, 2002. 
+\end{resitem}
+}
+
+% CITA postdoc hiring committee 2011
+\newcommand{\teachingservice}[1]{
+~\\ \reshead{Teaching, Service and Outreach}\\~\\
+\begin{tabular}{l p{12cm}} %\multicolumn{2}{l}
+2012--2013 & Advised one undergraduate (academic year), two (summer). \\
+May 2012 & Organizer of GBT $21$~cm intensity mapping analysis workshop, CITA. \\
+Mar. 2011 & Interviews in popular press for ``The Steppenwolf: A proposal for a habitable planet in interstellar space." \\
+Mar. 2010    & Early-stage textbook review, Cambridge University Press. \\
+2009--2010 year & KICP Friday seminar committee. \\
+Oct. 2009 -- Dec. 2009 & ``The Physics of Energy Devices," Compton Lecture Series, University of Chicago (10 public lectures). \\
+May 2009 issue & Interview: George Musser, ``Spectral Sensation," {\it Scientific American}. \\
+2008--2010     & Founder and organizer of the energy technology student group within the University of Chicago physics department. \\
+2007--         & Referee: {\it The Astrophysical Journal}, MNRAS. \\
+May 2006 -- Sep. 2006 & Developed physics teaching guide for the McGraw Center for Teaching and Learning at Princeton. \\
+Sep. 2005 -- Dec. 2005 & Introductory Integrated Engineering/Math/Physics, Problem session (Teaching Assistantship), Princeton. \\ % 191
+Feb. 2005 -- May 2005 & Introductory Engineering Physics, Supplemental problem sessions (Teaching Assistantship), Princeton. \\ %104
+Sep. 2004 -- May 2005 & Introductory General Physics, Labs (Teaching Assistantship), Princeton. \\ %101, 102
+\end{tabular} \\~\\~\\
+}
+
+%------------------------------------------------------------------------------
+%publication definitions
+%------------------------------------------------------------------------------
+\newcommand{\SPTptsrctwo}{L.\ M.\ Mocanu, T.\ M.\ Crawford, J.\ D.\ Vieira, SPT
+Collaboration, ``Extragalactic millimeter-wave point source catalog, number
+counts and statistics from 771 square degrees of the SPT-SZ Survey,"
+astro-ph/1306.3470  (2013).}
+\newcommand{\SPTptsrctwohttp}[1]{\linkarticle{\SPTptsrctwo}{http://arxiv.org/abs/1306.3470}{#1}}
+
+\newcommand{\ACTtwobandptsrc}{D.\ Marsden, M.\ Gralla, T.\ A.\ Marriage, {\bf
+E.\ R.\ Switzer}, B.\ Partridge, M.\ Massardi, G.\ Morales, ACT Collaboration,
+``The Atacama Cosmology Telescope: Dusty Star-Forming Galaxies and Active
+Galactic Nuclei in the Southern Survey," astro-ph/1306.2288 (2013).}
+\newcommand{\ACTtwobandptsrchttp}[1]{\linkarticle{\ACTtwobandptsrc}{http://arxiv.org/abs/1306.2288}{#1}}
+
+\newcommand{\GBTautopower}{{\bf E.\ R.\ Switzer}, K.\ W.\ Masui, K.\ Bandura,
+L.-M.\ Calin, T.-C.\ Chang, X.-L.\ Chen, Y.-C.\ Li, Y.-W.\ Liao, A.\ Natarajan,
+U.-L.\ Pen, J.\ B.\ Peterson, J.\ R.\ Shaw, T.\ C.\ Voytek, ``Determination of
+$z\sim 0.8$ neutral hydrogen fluctuations using the 21 cm intensity mapping
+auto-correlation," {\em MNRASL}~{10.1093/slt074} (2013).}
+\newcommand{\GBTautopowerhttp}[1]{\linkarticle{\GBTautopower}{http://mnrasl.oxfordjournals.org/content/early/2013/06/19/mnrasl.slt074}{#1}}
+
+\newcommand{\SZmoments}{J.\ Chluba, {\bf E.\ R.\ Switzer}, D.\ Nagai, K.\
+Nelson, ``Sunyaev-Zeldovich signal processing and temperature-velocity moment
+method for individual clusters," {\em MNRAS}~{\bf 430}(4) 3054 (2013).}
+\newcommand{\SZmomentshttp}[1]{\linkarticle{\SZmoments}{http://adsabs.harvard.edu/abs/2013MNRAS.430.3054C}{#1}}
+
+\newcommand{\ACTSZrichness}{N.\ Sehgal, ACT Collaboration, ``The Atacama
+Cosmology Telescope: Relation between Galaxy Cluster Optical Richness and
+Sunyaev-Zel'dovich Effect," {\em ApJ}~{\bf 767}(1) 38 (2013).}
+\newcommand{\ACTSZrichnesshttp}[1]{\linkarticle{\ACTSZrichness}{http://adsabs.harvard.edu/abs/2013ApJ...767...38S}{#1}}
+
+\newcommand{\actfinalbeam}{M.\ Hasselfield, K.\ Moodley, ACT Collaboration,
+``The Atacama Cosmology Telescope: Beam Measurements and the Microwave
+Brightness Temperatures of Uranus and Saturn," astro-ph/1303.4714 (2013).}
+\newcommand{\actfinalbeamhttp}[1]{\linkarticle{\actfinalbeam}{http://arxiv.org/abs/1303.4714}{#1}}
+
+\newcommand{\ACTcluseq}{F.\ Menanteau, C.\ Sif\'{o}n, ACT Collaboration, ``The
+Atacama Cosmology Telescope: Physical Properties of Sunyaev-Zel'dovich Effect
+Clusters on the Celestial Equator," {\em ApJ}~{\bf 765}(1) 67, (2013).}
+\newcommand{\ACTcluseqhttp}[1]{\linkarticle{\ACTcluseq}{http://adsabs.harvard.edu/abs/2013ApJ...765...67M}{#1}}
+
+\newcommand{\preplanck}{E.\ Calabrese, R.\ Hlozek, ACT Collaboration,
+"Cosmological parameters from pre-Planck cosmic microwave background measurements", 
+{\em PRD}~{\bf 87}(10), 103012 (2013).}
+\newcommand{\preplanckhttp}[1]{\linkarticle{\preplanck}{http://adsabs.harvard.edu/abs/2013PhRvD..87j3012C}{#1}}
+
+\newcommand{\actfinalpwr}{S.\ Das, T.\ Louis, M.\ R.\ Nolta, ACT Collaboration,
+``The Atacama Cosmology Telescope: Temperature and Gravitational Lensing Power
+Spectrum Measurements from Three Seasons of Data," astro-ph/1301.1037 (2013).}
+\newcommand{\actfinalpwrhttp}[1]{\linkarticle{\actfinalpwr}{http://arxiv.org/abs/1301.1037}{#1}}
+
+\newcommand{\actfinallike}{J.\ Dunkley, E.\ Calabrese, J.\ Sievers, ACT
+Collaboration, ``The Atacama Cosmology Telescope: likelihood for small-scale
+CMB data," {\em JCAP}~{\bf 7}(25), (2013).}
+\newcommand{\actfinallikehttp}[1]{\linkarticle{\actfinallike}{http://adsabs.harvard.edu/abs/2013JCAP...07..025D}{#1}}
+
+\newcommand{\actfinalsz}{M.\ Hasselfield, M.\ Hilton, T.\ A.\ Marriage, ACT
+Collaboration, ``The Atacama Cosmology Telescope: Sunyaev-Zel'dovich selected
+galaxy clusters at 148 GHz from three seasons of data," {\em JCAP}~{\bf 7}(8),
+(2013).}
+\newcommand{\actfinalszhttp}[1]{\linkarticle{\actfinalsz}{http://adsabs.harvard.edu/abs/2013JCAP...07..008H}{#1}}
+
+\newcommand{\actfinalparam}{J.\ L.\ Sievers, R.\ A.\ Hlozek, M.\ R.\ Nolta,
+ACT Collaboration, ``The Atacama Cosmology Telescope: Cosmological parameters
+from three seasons of data," astro-ph/1301.0824 (2013).}
+\newcommand{\actfinalparamhttp}[1]{\linkarticle{\actfinalparam}{http://arxiv.org/abs/1301.0824}{#1}}
+
+\newcommand{\recombmodes}{M.\ Farhang, J.\ R.\ Bond, J.\ Chluba, {\bf E.\ R.\
+Switzer}, ``Constraints on Perturbations to the Recombination History from
+Measurements of the Cosmic Microwave Background Damping Tail," {\em ApJ}~{\bf 764}(2) 137 (2013).}
+\newcommand{\recombmodeshttp}[1]{\linkarticle{\recombmodes}{http://adsabs.harvard.edu/abs/2013ApJ...764..137F}{#1}}
+
+\newcommand{\ACTkSZxBOSS}{N.\ Hand, ACT Collaboration, ``Detection of Galaxy
+Cluster Motions with the Kinematic Sunyaev-Zel'dovich Effect," {\em PRL}~{\bf
+109}(4) 041101 (2012).}
+\newcommand{\ACTkSZxBOSShttp}[1]{\linkarticle{\ACTkSZxBOSS}{http://adsabs.harvard.edu/abs/2012PhRvL.109d1101H}{#1}}
+
+\newcommand{\GBTxWiggleZ}{K.\ W.\ Masui, {\bf E.\ R.\ Switzer}, N.\ Banavar,
+K.\ Bandura, C.\ Blake, L.-M.\ Calin, T.-C.\ Chang, X.\ Chen, Y.-C.\ Li, Y.-W.\
+Liao, A.\ Natarajan, U.-L.\ Pen, J.\ B.\ Peterson, J.\ R.\ Shaw, T.\ C.\
+Voytek, ``Measurement of $21$\,cm brightness fluctuations at $z\sim 0.8$ in
+cross-correlation," {\em ApJL}~{\bf 763}(1) L20 (2013).}
+\newcommand{\GBTxWiggleZhttp}[1]{\linkarticle{\GBTxWiggleZ}{http://adsabs.harvard.edu/abs/2013ApJ...763L..20M}{#1}}
+
+\newcommand{\ACTdata}{R.\ D\"{u}nner, M.\ Hasselfield, T.\ A.\ Marriage, J.\
+Sievers, ACT Collaboration, ``The Atacama Cosmology Telescope: Data
+Characterization and Mapmaking," {\em ApJ}~{\bf 762}(1) 10 (2013).}
+\newcommand{\ACTdatahttp}[1]{\linkarticle{\ACTdata}{http://adsabs.harvard.edu/abs/2013ApJ...762...10D}{#1}}
+
+\newcommand{\ACTkxQSO}{B.\ D.\ Sherwin, S.\ Das, A.\ Hajian, ACT Collaboration,
+``The Atacama Cosmology Telescope: Cross-Correlation of CMB Lensing and
+Quasars," {\em PRD}~{\bf 86}(8) 083006 (2012).}
+\newcommand{\ACTkxQSOhttp}[1]{\linkarticle{\ACTkxQSO}{http://adsabs.harvard.edu/abs/2012PhRvD..86h3006S}{#1}}
+
+\newcommand{\HeItrans}{J.\ Chluba, J.\ Fung, {\bf E.\ R.\ Switzer}, ``Radiative
+transfer effects during primordial helium recombination," {\em MNRAS}~{\bf
+423}(4) 3227 (2012).}
+\newcommand{\HeItranshttp}[1]{\linkarticle{\HeItrans}{http://adsabs.harvard.edu/abs/2012MNRAS.423.3227C}{#1}}
+
+\newcommand{\ACTskewness}{M.\ J.\ Wilson, B.\ D.\ Sherwin, J.\ C.\ Hill, ACT
+Collaboration, ``Atacama Cosmology Telescope: A measurement of the thermal
+Sunyaev-Zel'dovich effect using the skewness of the CMB temperature
+distribution," {\em PRD}~{\bf 86}(12) 122005 (2012).}
+\newcommand{\ACTskewnesshttp}[1]{\linkarticle{\ACTskewness}{http://adsabs.harvard.edu/abs/2012PhRvD..86l2005W}{#1}}
+
+\newcommand{\ACTxBLAST}{A.\ Hajian, M.\ P.\ Viero, ACT Collaboration,
+``Correlations in the (Sub)millimeter background from ACTxBLAST," {\em
+ApJ}~{\bf 744}(1) 40 (2012).}
+\newcommand{\ACTxBLASThttp}[1]{\linkarticle{\ACTxBLAST}{http://adsabs.harvard.edu/abs/2012ApJ...744...40H}{#1}}
+
+\newcommand{\ACTparam}{J.\ Dunkley, R.\ Hlozek, J.\ Sievers, ACT Collaboration,
+``The Atacama Cosmology Telescope: Cosmological Parameters from the 2008 Power
+Spectrum," {\em ApJ}~{\bf 739}(1) 52 (2011).}
+\newcommand{\ACTparamhttp}[1]{\linkarticle{\ACTparam}{http://adsabs.harvard.edu/abs/2011ApJ...739...52D}{#1}}
+
+\newcommand{\ACTSZA}{E.\ D.\ Reese, T.\ Mroczkowski, F.\ Menanteau, M.\ Hilton,
+J.\ Sievers, ACT Collaboration, ``The Atacama Cosmology Telescope:
+High-Resolution Sunyaev-Zel'dovich Array Observations of ACT SZE-selected
+Clusters from the Equatorial Strip" {\em ApJ}~{\bf 751}(1) 12 (2012).}
+\newcommand{\ACTSZAhttp}[1]{\linkarticle{\ACTSZA}{http://adsabs.harvard.edu/abs/2012ApJ...751...12R}{#1}}
+
+\newcommand{\ACTPpower}{R.\ Hlozek, J.\ Dunkley, ACT Collaboration, ``The
+Atacama Cosmology Telescope: a measurement of the primordial power spectrum,"
+{\em ApJ}~{\bf 749}(1) 90 (2012).}
+\newcommand{\ACTPpowerhttp}[1]{\linkarticle{\ACTPpower}{http://adsabs.harvard.edu/abs/2012ApJ...749...90H}{#1}}
+
+\newcommand{\ACTLambda}{B.\ Sherwin, J.\ Dunkley, S.\ Das, ACT Collaboration,
+``Evidence for Dark Energy from the Cosmic Microwave Background Alone Using the
+Atacama Cosmology Telescope Lensing Measurements," {\em PRL}~{\bf 107}(2)
+021302 (2011).}
+\newcommand{\ACTLambdahttp}[1]{\linkarticle{\ACTLambda}{http://adsabs.harvard.edu/abs/2011PhRvL.107b1302S}{#1}}
+
+\newcommand{\ACTlens}{S.\ Das, B.\ Sherwin, ACT Collaboration, ``Detection of
+the Power Spectrum of Cosmic Microwave Background Lensing by the Atacama
+Cosmology Telescope," {\em PRL}~{\bf 107}(2) 021301 (2011).}
+\newcommand{\ACTlenshttp}[1]{\linkarticle{\ACTlens}{http://adsabs.harvard.edu/abs/2011PhRvL.107b1301D}{#1}}
+
+\newcommand{\Steppenwolf}{D.\ S.\ Abbot, {\bf E.\ R.\ Switzer}, ``The
+Steppenwolf: A Proposal for a Habitable Planet in Interstellar Space," {\em
+ApJL}~{\bf 735}(2) L27 (2011).}
+\newcommand{\Steppenwolfhttp}[1]{\linkarticle{\Steppenwolf}{http://adsabs.harvard.edu/abs/2011ApJ...735L..27A}{#1}}
+
+\newcommand{\ACTLRG}{N.\ Hand, ACT Collaboration, ``The Atacama Cosmology
+Telescope: Detection of Sunyaev-Zel'Dovich Decrement in Groups and Clusters
+Associated with Luminous Red Galaxies," {\em ApJ}~{\bf 736}(1) 39 (2011).}
+\newcommand{\ACTLRGhttp}[1]{\linkarticle{\ACTLRG}{http://adsabs.harvard.edu/abs/2011ApJ...736...39H}{#1}}
+
+\newcommand{\ACTclustercatalog}{T.\ A.\ Marriage, ACT Collaboration, ``The
+Atacama Cosmology Telescope: Sunyaev-Zel'dovich-Selected Galaxy Clusters at
+$148$\,GHz in the 2008 Survey," {\em ApJ}~{\bf 737}(2) 61 (2011).}
+\newcommand{\ACTclustercataloghttp}[1]{\linkarticle{\ACTclustercatalog}{http://adsabs.harvard.edu/abs/2011ApJ...737...61M}{#1}}
+
+\newcommand{\ACTclustercosmo}{N.\ Sehgal, H.\ Trac, ACT Collaboration, ``The
+Atacama Cosmology Telescope: Cosmology from Galaxy Clusters Detected via the
+Sunyaev-Zel'dovich Effect," {\em ApJ}~{\bf 732}(1) 44 (2011).}
+\newcommand{\ACTclustercosmohttp}[1]{\linkarticle{\ACTclustercosmo}{http://adsabs.harvard.edu/abs/2011ApJ...732...44S}{#1}}
+
+\newcommand{\ACTdaspwr}{S.\ Das, T.\ A.\ Marriage, ACT Collaboration, ``The
+Atacama Cosmology Telescope: A Measurement of the Cosmic Microwave Background
+Power Spectrum at $148$ and $218$~GHz from the 2008 Southern Survey," {\em
+ApJ}~{\bf 729}(1) 62-78 (2011).}
+\newcommand{\ACTdaspwrhttp}[1]{\linkarticle{\ACTdaspwr}{http://arxiv.org/abs/1009.0847}{#1}}
+
+\newcommand{\ACTcalib}{A.\ Hajian, ACT Collaboration, ``The Atacama Cosmology
+Telescope: Calibration with WMAP Using Cross-Correlations," {\em ApJ}~{\bf 740}
+86 (2011).}
+\newcommand{\ACTcalibhttp}[1]{\linkarticle{\ACTcalib}{http://iopscience.iop.org/0004-637X/740/2/86/}{#1}}
+
+\newcommand{\ACTptsrc}{T.\ A.\ Marriage, J.\ B.\ Juin, Y.-T.\ Lin, D.\ Marsden,
+M.\ R.\ Nolta, B.\ Partridge, ACT Collaboration, ``Atacama Cosmology Telescope:
+Extragalactic Sources at $148$~GHz in the 2008 Survey," {\em ApJ}~{\bf 731}(2)
+100 (2011).}
+\newcommand{\ACTptsrchttp}[1]{\linkarticle{\ACTptsrc}{http://adsabs.harvard.edu/abs/2011ApJ...731..100M}{#1}}
+
+\newcommand{\ACTinstrument}{D.\ S.\ Swetz, ACT Collaboration, ``Overview of the
+Atacama Cosmology Telescope: Receiver, Instrumentation, and Telescope Systems,"
+{\em ApJS}~{\bf 194}(2) 41 (2011).}
+\newcommand{\ACTinstrumenthttp}[1]{\linkarticle{\ACTinstrument}{http://adsabs.harvard.edu/abs/2011ApJS..194...41S}{#1}}
+
+\newcommand{\ACTopticalcluster}{F.\ Menanteau, J.\ González, J.\ B.\ Juin, T.\
+A.\ Marriage, E.\ D.\ Reese, ACT Collaboration, ``The Atacama Cosmology
+Telescope: Physical Properties and Purity of a Galaxy Cluster Sample Selected
+via the Sunyaev-Zel'dovich Effect," {\em ApJ}~{\bf 723}(2) 1523-1541 (2010).}
+\newcommand{\ACTopticalclusterhttp}[1]{\linkarticle{\ACTopticalcluster}{http://adsabs.harvard.edu/abs/2010ApJ...723.1523M}{#1}}
+
+\newcommand{\HeIforest}{M.\ McQuinn, {\bf E.\ R.\ Switzer}, ``The He{\sc ~i}
+$584~$\AA\ Forest as a Diagnostic of Helium Reionization," MNRAS~{\bf 408}(3)
+1945-1955 (2010).}
+\newcommand{\HeIforesthttp}[1]{\linkarticle{\HeIforest}{http://adsabs.harvard.edu/abs/2010MNRAS.408.1945M}{#1}}
+
+\newcommand{\actpwrspec}{J.\ W.\ Fowler, ACT Collaboration, ``The Atacama
+Cosmology Telescope: A Measurement of the $600< \ell <8000$ Cosmic Microwave
+Background Power Spectrum at $148$~GHz," {\em ApJ}~{\bf 722}(2) 1148-1161
+(2010).}
+\newcommand{\actpwrspechttp}[1]{\linkarticle{\actpwrspec}{http://adsabs.harvard.edu/abs/2010ApJ...722.1148F}{#1}}
+
+\newcommand{\sptptsrcclustering}{N.\ R.\ Hall, R.\ Keisler, L.\ Knox, C.\ L.\
+Reichardt, SPT Collaboration, ``Angular Power Spectra of the Millimeter
+Wavelength Background Light from Dusty Star-forming Galaxies with the South
+Pole Telescope," {\em ApJ}~{\bf 718}(2) 632-646 (2010).}
+\newcommand{\sptptsrcclusteringhttp}[1]{\linkarticle{\sptptsrcclustering}{http://adsabs.harvard.edu/abs/2010ApJ...718..632H}{#1}}
+
+\newcommand{\sptptsrcmethod}{T.\ M.\ Crawford, {\bf E.\ R.\ Switzer}, W.\ L.\
+Holzapfel, C.\ L.\ Reichardt, D.\ P.\ Marrone, J.\ D.\ Vieira, ``A Method for
+Individual Source Brightness Estimation in Single- and Multi-band Data," {\em
+ApJ}~{\bf 718}(1) 513-521 (2010).}
+\newcommand{\sptptsrcmethodhttp}[1]{\linkarticle{\sptptsrcmethod}{http://adsabs.harvard.edu/abs/2010ApJ...718..513C}{#1}}
+
+\newcommand{\sptptsrccatalog}{J.\ D.\ Vieira, T.\ M.\ Crawford, {\bf E.\ R.\
+Switzer}, SPT Collaboration, ``Extragalactic Millimeter-wave Sources in South
+Pole Telescope Survey Data: Source Counts, Catalog, and Statistics for an 87
+Square-degree Field," {\em ApJ}~{\bf 719}(1) 763-783 (2010).}
+\newcommand{\sptptsrccataloghttp}[1]{\linkarticle{\sptptsrccatalog}{http://adsabs.harvard.edu/abs/2010ApJ...719..763V}{#1}}
+
+\newcommand{\actbeamsz}{A.\ D.\ Hincks, ACT Collaboration, ``The Atacama
+Cosmology Telescope (ACT): Beam Profiles and First SZ Cluster Maps," {\em
+ApJS}~{\bf 191}(2) 423-438 (2010).}
+\newcommand{\actbeamszhttp}[1]{\linkarticle{\actbeamsz}{http://iopscience.iop.org/0067-0049/191/2/423/}{#1}}
+
+\newcommand{\hethreeplus}{M.\ McQuinn, {\bf E.\ R.\ Switzer}, ``Redshifted
+intergalactic $^3{\rm He}+$ 8.7 GHz hyperfine absorption," {\em PRD}~{\bf
+80}(6) 063010 (2009).}
+\newcommand{\hethreeplushttp}[1]{\linkarticle{\hethreeplus}{http://adsabs.harvard.edu/abs/2009PhRvD..80f3010M}{#1}}
+
+\newcommand{\thesis}{{\bf E.\ R.\ Switzer}, ``Small-scale anisotropies of the
+cosmic microwave background: Experimental and theoretical perspectives,'' {\em
+Princeton Ph.D. Thesis} (2008).}
+\newcommand{\thesishttp}[1]{\linkarticle{\thesis}{http://cita.utoronto.ca/~eswitzer/documents/switzer_thesis.pdf}{#1}}
+
+\newcommand{\recthree}{{\bf E.\ R.\ Switzer}, C.\ M.\ Hirata, ``Primordial
+helium recombination III: Thomson scattering, isotope shifts, and cumulative
+results,'' {\em PRD}~{\bf 77}(8) 083008 (2008).}
+\newcommand{\recthreehttp}[1]{\linkarticle{\recthree}{http://adsabs.harvard.edu/abs/2008PhRvD..77h3008S}{#1}}
+
+\newcommand{\rectwo}{C.\ M.\ Hirata, {\bf E.\ R.\ Switzer}, ``Primordial helium
+recombination II: two-photon processes," {\em PRD}~{\bf 77}(8) 083007 (2008).}
+\newcommand{\rectwohttp}[1]{\linkarticle{\rectwo}{http://adsabs.harvard.edu/abs/2008PhRvD..77h3007H}{#1}}
+
+\newcommand{\recone}{{\bf E.\ R.\ Switzer}, C.\ M.\ Hirata, ``Primordial helium
+recombination I: feedback, line transfer, and continuum opacity," {\em
+PRD}~{\bf 77}(8) 083006 (2008).}
+\newcommand{\reconehttp}[1]{\linkarticle{\recone}{http://adsabs.harvard.edu/abs/2008PhRvD..77h3006S}{#1}}
+
+\newcommand{\actopt}{J.\ W.\ Fowler, M.\ D.\ Niemack, S.\ R.\ Dicker, ACT
+Collaboration, ``Optical design of the Atacama Cosmology Telescope and the
+Millimeter Bolometric Array Camera," {\it Applied Optics}~{\bf 46}(17)
+3444-3454 (2007).}
+\newcommand{\actopthttp}[1]{\linkarticle{\actopt}{http://adsabs.harvard.edu/abs/2007ApOpt..46.3444F}{#1}}
+
+\newcommand{\lisupp}{{\bf E.\ R.\ Switzer}, C.\ M.\ Hirata, ``Ionizing
+radiation from hydrogen recombination strongly suppresses the lithium
+scattering signature in the CMB," {\em PRD}~{\bf 72}(8) 083002 (2005).}
+\newcommand{\lisupphttp}[1]{\linkarticle{\lisupp}{http://adsabs.harvard.edu/abs/2005PhRvD..72h3002S}{#1}}
+
+\newcommand{\neutrinolss}{K.\ Abazajian, {\bf E.\ R.\ Switzer}, S.\ Dodelson,
+K.\ Heitmann, S.\ Habib, ``Nonlinear cosmological matter power spectrum with
+massive neutrinos: The halo model,'' {\em PRD}~{\bf 71}(4) 043507 (2005).} % Salman, Kevork, Katrin
+\newcommand{\neutrinolsshttp}[1]{\linkarticle{\neutrinolss}{http://adsabs.harvard.edu/abs/2005PhRvD..71d3507A}{#1}}
+
+\newcommand{\electrochem}{J.\ A.\ Switzer,  C.-J.\ Hung, L.-Y.\ Huang, {\bf E.\
+R.\ Switzer}, T.\ D.\ Golden, and E.\ W.\  Bohannan, ``Electrochemical
+Self-Assembly of Copper/Cuprous Oxide Layered Nanostructures," {\em J.\ Am.\
+Chem.\ Soc.\ }~{\bf 120} 3530-3531 (1998).}
+\newcommand{\electrochemhttp}[1]{\linkarticle{\electrochem}{http://pubs3.acs.org/acs/journals/toc.page?incoden=jacsat&indecade=&involume=120&inissue=14}{#1}}
+
+%------------------------------------------------------------------------------
+%reports, proceedings and talks
+%------------------------------------------------------------------------------
+\newcommand{\KITPGBT}{``Results from the Green Bank Telescope 21 cm intensity
+survey," {\em Observations and Theoretical Challenges in Primordial Cosmology
+(KITP)}, Apr. 2013.} % Apr. 26
+
+\newcommand{\OhioGBT}{``Results from the Green Bank Telescope 21 cm intensity
+survey: Methods," {\em Innovative Techniques in 21 cm Analysis (Ohio)}, Apr. 2013.} % Apr. 18
+% http://www.ccapp.osu.edu/workshops/21cm/abstracts.html
+
+\newcommand{\NASAjobtalk}{``A history of the universe through its atoms," {\em
+NASA GSFC, cosmology division seminar}, Jan. 2013.} % Feb. 26
+
+\newcommand{\CMUjobtalk}{``A history of the universe through its atoms," {\em
+CMU, physics colloquium}, Jan. 2013.} % Jan. 22
+
+\newcommand{\PennGBT}{``$21$~cm Intensity Mapping with the Green Bank
+Telescope," {\em UPenn, astrophysics seminar}, Dec. 2012.} % Dec. 12
+
+% http://cdsagenda5.ictp.trieste.it/full_display.php?ida=a11171
+\newcommand{\ICTPGBT}{``$21$~cm Intensity Mapping with the Green Bank
+Telescope," {\em Workshop on Recent Developments in Astronuclear and
+Astroparticle Physics (ICTP)}, Nov. 2012.} % Nov. 22
+% astroparticle and astronuclear 
+
+\newcommand{\SCMAVproc}{E.\ R.\ Switzer, T.\ M.\ Crawford, C.\ L.\ Reichardt,
+``Bayesian flux reconstruction in one and two bands," Statistical Challenges in
+Modern Astronomy V, Feigelson and Babu (Eds.), Springer 2012.}
+\newcommand{\SCMAVprochttp}[1]{\linkarticle{\SCMAVproc}{http://www.springer.com/statistics/book/978-1-4614-3519-8}{#1}}
+
+\newcommand{\WaterlooGBT}{``$21$~cm Intensity Mapping with the Green Bank
+Telescope," {\em University of Waterloo, astrophysics seminar}, Jan. 2012.} % Jan. 25
+
+\newcommand{\cancunGBT}{``$21$~cm Intensity Mapping with the Green Bank
+Telescope," {\em Cosmology on the Beach, Cancun}, Jan. 2012.} % Jan. 20
+
+\newcommand{\GTWOKGBT}{``$21$~cm Intensity Mapping with the Green Bank
+Telescope," {\em G2000, University of Toronto}, Nov. 2011.} % Nov. 23
+
+\newcommand{\SCMAV}{``Bayesian flux reconstruction in one and two bands," {\em
+Statistical Challenges in Modern Astronomy V (Penn State University)}, June
+2011.} % June 13
+\newcommand{\SCMAVhttp}[1]{\linkarticle{\SCMAV}{http://astrostatistics.psu.edu/su11scma5/scma5.html}{#1}}
+
+\newcommand{\CITAfore}{``Removing foregrounds and characterizing residuals in
+$z \sim 1$ 21 cm surveys," {\em 21-cm Cosmology: Advanced data analysis
+(CITA)}, June 2011.} % June 7
+
+\newcommand{\CITAJob}{``Some Aspects of Cosmological Helium," {\em CITA,
+astrophysics seminar}, Jan. 2011.} % Jan. 24
+\newcommand{\CITAJobhttp}[1]{\linkarticle{\CITAJob}{http://cita.utoronto.ca/~eswitzer/talks/helium_history_CITA.pdf}{#1}}
+
+\newcommand{\FNALJob}{``Some Aspects of Cosmological Helium," {\em Fermilab
+Center for Particle Astrophysics, seminar}, Dec. 2010.} % Dec. 7
+\newcommand{\FNALJobhttp}[1]{\linkarticle{\FNALJob}{http://cita.utoronto.ca/~eswitzer/talks/Helium_Cosmology_ERS.pdf}{#1}}
+
+\newcommand{\BerkeleySPT}{``Statistics of the source population observed at
+millimeter wavelengths by the South Pole Telescope," {\em Berkeley,
+astrophysics seminar}, Mar. 2010.} % Mar. 16
+\newcommand{\BerkeleySPThttp}[1]{\linkarticle{\BerkeleySPT}{http://cita.utoronto.ca/~eswitzer/talks/Switzer_SPT_ptsrc_Berkeley_2010.pdf}{#1}}
+
+\newcommand{\KICPSPT}{``Statistics of the source population observed at
+millimeter wavelengths by the South Pole Telescope," {\em KICP Postdoctoral
+Symposium}, Feb. 2010.} % Feb. 22
+
+\newcommand{\KICPGBT}{``Prospects for cosmology at $z \sim 1$ with $21$~cm
+radiation," {\em KICP Postdoctoral Symposium}, Mar. 2011.} % Mar. 11
+
+\newcommand{\EPAenergy}{``A physicist's outlook on energy," {\em Environmental
+Protection Agency Region 5 office, seminar}, Feb. 2010.}  % Feb. 3
+\newcommand{\EPAenergyhttp}[1]{\linkarticle{\EPAenergy}{http://cita.utoronto.ca/~eswitzer/compton/}{#1}}
+
+\newcommand{\ComptonLecture}[1]{\begin{samepage}
+\linkarticle{``The Physics of Energy Devices," Compton Lectures, University of
+Chicago, Fall 2009:}{http://cita.utoronto.ca/~eswitzer/compton/}{#1}
+\begin{resitem}
+\item Lecture 1: Introduction and motors
+\item Lecture 2: Motors and generators
+\item Lecture 3: Power transmission
+\item Lecture 4: Power from the wind
+\item Lecture 5: Basic thermodynamics
+\item Lecture 6: Heat engines and transportation
+\item Lecture 7: Nuclear fission
+\item Lecture 8: Solar energy
+\item Lecture 9: Special guest lecture -- Dorian Abbot
+\item Lecture 10: Summary; future
+\end{resitem}
+\end{samepage}
+}
+
+\newcommand{\hyperfineradtrans}{``Radiative transport through the hyperfine
+transitions," {\em KICP, theory group talk}, Dec. 2009.}  % Dec. 7
+\newcommand{\hyperfineradtranshttp}[1]{\linkarticle{\hyperfineradtrans}{http://cita.utoronto.ca/~eswitzer/documents/radiative_transport_hyperfine.pdf}{#1}}
+
+\newcommand{\energygroup}{Several informal presentations for the energy
+technology study group, University of Chicago, 2009.}
+\newcommand{\energygrouphttp}[1]{\linkarticle{\energygroup}{https://toaster.uchicago.edu/energy/index.php/Schedule}{#1}}
+
+\newcommand{\refineries}{``Refining oil,'' {\em Energy technology study group,
+University of Chicago}, Apr.\ 2009.}
+
+\newcommand{\KICPhyperfine}{``Wandering in the hyperfine forest,'' {\em KICP
+seminar, University of Chicago}, Apr.\ 2009.}
+
+\newcommand{\solartheory}{``Introduction to Solar Cells and Efficiency
+Arguments,'' {\em Energy technology study group, University of Chicago}, Mar.\
+2009.}
+
+\newcommand{\energygeneral}{``Energy: Present Use and Future Choices,''
+{\em Energy technology study group, University of Chicago}, Jan.\ 2009.}
+
+\newcommand{\thesistalk}{``Small-Scale Anisotropies of the CMB: Experimental
+and Theoretical Perspectives,'' {\em Ph.D. Final Public Oral, Princeton}, Oct.
+2008.}
+
+\newcommand{\MPArecombinationtwo}{``Prospects for observing the spectral
+distortion from recombination,'' {\em The Physics of Cosmological Recombination
+(MPA),} July 2008.}
+
+\newcommand{\MPArecombinationone}{``Cosmological helium recombination,'' {\em
+The Physics of Cosmological Recombination (MPA),} July 2008.}
+
+\newcommand{\SPIEtes}{Y.\ Zhao, ACT collaboration, ``Characterization of
+Transition Edge Sensors for the Millimeter Bolometer Array Camera on the
+Atacama Cosmology Telescope,'' {\em Proc.\ SPIE}, {\bf 7020}, 70200O-70200O-11
+(2008).}
+\newcommand{\SPIEteshttp}[1]{\linkarticle{\SPIEtes}{http://adsabs.harvard.edu/abs/2008SPIE.7020E..20Z}{#1}}
+
+\newcommand{\SPIEopt}{R.\ J.\ Thornton, ACT collaboration, ``Opto-mechanical
+design and performance of a compact three-frequency camera for the MBAC
+receiver on the Atacama Cosmology Telescope,'' {\em Proc.\ SPIE}, {\bf 7020}
+70201R-70201R-10 (2008).}
+\newcommand{\SPIEopthttp}[1]{\linkarticle{\SPIEopt}{http://adsabs.harvard.edu/abs/2008SPIE.7020E..44T}{#1}}
+
+\newcommand{\SPIEsys}{{\bf E.\ R.\ Switzer}, ACT collaboration, ``Systems and
+control software for the Atacama Cosmology Telescope,'' {\em Proc.\ SPIE}, {\bf
+7019} 70192L-70192L-12 (2008).}
+\newcommand{\SPIEsyshttp}[1]{\linkarticle{\SPIEsys}{http://www.physics.princeton.edu/act/papers/switzer_spie_2008.pdf}{#1}}
+
+\newcommand{\SPIEmbac}{D.\ S.\ Swetz, ACT collaboration, ``Instrument design
+and characterization of the Millimeter Bolometer Array Camera on the Atacama
+Cosmology Telescope,'' {\em Proc.\ SPIE}, {\bf 7020} 702008-702008-12 (2008).}
+\newcommand{\SPIEmbachttp}[1]{\linkarticle{\SPIEmbac}{http://adsabs.harvard.edu/abs/2008SPIE.7020E...6S}{#1}}
+
+\newcommand{\SPIEtele}{A.\ D.\ Hincks, ACT collaboration, ``The effects of the
+mechanical performance and alignment of the Atacama Cosmology Telescope on the
+sensitivity of microwave observations,'' {\em Proc.\ SPIE}, {\bf 7020}
+70201P-70201P-10 (2008).}
+\newcommand{\SPIEtelehttp}[1]{\linkarticle{\SPIEtele}{http://adsabs.harvard.edu/abs/2008SPIE.7020E..42H}{#1}}
+
+\newcommand{\SPIEmce}{E.\ S.\ Battistelli, ACT collaboration, ``Automated SQUID
+tuning procedure for kilo-pixel arrays of TES bolometers on the Atacama
+Cosmology Telescope,'' {\em Proc. SPIE}, {\bf 7020} 702028-702028-12 (2008).}
+\newcommand{\SPIEmcehttp}[1]{\linkarticle{\SPIEmce}{http://adsabs.harvard.edu/abs/2008SPIE.7020E..57B}{#1}}
+
+\newcommand{\ggfour}{``Millimeter-wave emission of the planets,'' {\em
+Princeton Gravity Group}, Feb., 2008.}
+
+\newcommand{\postdoctalks}{``Small-scale CMB Anisotropies and the Atacama
+Cosmology Telescope: Perspectives and Progress,'' {\em Talk for the Chicago,
+Berkeley cosmology groups}, Oct. 2007.}
+
+\newcommand{\postdoctalksberkeley}{``Small-scale CMB Anisotropies and the
+Atacama Cosmology Telescope: Perspectives and Progress,'' {\em Berkeley,
+cosmology group seminar}, Oct. 2007.}
+
+\newcommand{\postdoctalkschicago}{``Small-scale CMB Anisotropies and the
+Atacama Cosmology Telescope: Perspectives and Progress,'' {\em KICP,
+seminar}, Oct. 2007.}
+
+\newcommand{\actkilo}{M. Niemack, ACT collaboration, ``A kilopixel array of TES
+bolometers for ACT: development, testing, and first light,'' {\em J. Low Temp.
+Phys.}, {\bf 151}(3-4) 690-696 (2008).}
+\newcommand{\actkilohttp}[1]{\linkarticle{\actkilo}{http://adsabs.harvard.edu/abs/2008JLTP..151..690N}{#1}}
+
+\newcommand{\ggthree}{``Cosmological helium recombination,'' {\em Princeton
+Gravity Group}, Feb., 2007.}
+
+\newcommand{\gslhome}{E.\ R.\ Switzer, ``Graduate Student Life -- Home on the
+Range,'' {\em Princeton physics departmental newsletter}, Sept.\ 2006.}
+
+\newcommand{\aiguide}{E.\ R.\ Switzer, ``Physics AI Guide: Princeton
+University,'' {\em Guide for graduate assistant instructorships}, Sept.\ 2006.}
+
+\newcommand{\actprogress}{A.\ Kosowsky, the ACT collaboration, ``The Atacama
+Cosmology Telescope: A progress report,'' {\em New Astronomy Reviews} {\bf
+50}(11-12) 969-976 (2006); Switzer: {\em preliminary beam maps appearing
+therein}.}
+\newcommand{\actprogresshttp}[1]{\linkarticle{\actprogress}{http://adsabs.harvard.edu/abs/2006NewAR..50..969K}{#1}}
+
+\newcommand{\niemackmmtes}{M.\ Niemack, the ACT collaboration, ``Measuring
+two-millimeter radiation with a prototype multiplexed TES receiver for ACT,''
+{\em Proc. SPIE} {\bf 6275} 62750C (2006).}
+
+\newcommand{\ggtwo}{``Corrections to cosmological recombination,'' {\em
+Princeton Gravity Group}, Apr.\ 2006.}
+
+\newcommand{\advproj}{``Numerical radiative transport for recombination
+physics,'' {\em Princeton advanced project under C.\ M.\ Hirata}, Apr.\ 2005.}
+
+\newcommand{\ggone}{``Weren't we done with recombination?'' {\em Princeton
+Gravity Group}, Mar.\ 2005.}
+
+\newcommand{\expreport}{``Variance estimates in the SDSS spectrographic data,''
+{\em Princeton experimental project}, Sept.\ 2004.}
+
+\newcommand{\SDSSreport}{``Variance estimates in the SDSS spectrographic
+data,'' {\em Sloan Digital Sky Survey internal report}, Sep.\ 2004.}
+
+\newcommand{\neutrinolssproc}{{\bf E.\ R.\ Switzer}, K.\ Abazajian, S.\
+Dodelson, S.\ Habib, and K.\ Heitmann, ``Massive neutrinos and the halo model
+of large scale structure,'' {\em Nuc.\ Phys.\ B, Proceedings from Neutrino
+2004} {\bf 143}, 571 (2005).}
+\newcommand{\neutrinolssprochttp}[1]{\linkarticle{\neutrinolssproc}{http://adsabs.harvard.edu/abs/2005NuPhS.143..571S}{#1}}
+
+\newcommand{\bathesis}{E.\ R.\ Switzer, ``OPAL/LEP II measurements of $\tau$
+polarization at $\approx 206$~GeV," {\em Undergraduate thesis under Mark
+Oreglia, University of Chicago} (2003).}
+
+\newcommand{\hermes}{E.\ R.\ Switzer, ``Measurements of electron energy
+deposition in the HERMES silicon recoil detector,'' {\em DESY HERMES Recoil
+Group internal report}, Aug. 2002.}
+
+\newcommand{\mucool}{E.\ R.\ Switzer, ``Thermal diffusion in the MuCool
+bolometer,'' {\em EFI-HEP Muon Cooling Group internal report}, June 2002.}
+
+\newcommand{\mucoolamp}{E.\ R.\ Switzer, ``MuCool calorimeter amplifier design
+and analysis,'' {\em EFI-HEP Muon Cooling Group internal report}, July 2001.}
+
+\newcommand{\sspferonia}{{\bf E.\ R.\ Switzer}, et al., Orbital elements of
+asteroid 72-Feronia, submitted to Harvard small planet catalog. (1998).}
+
+%------------------------------------------------------------------------------
+% publication sections
+%------------------------------------------------------------------------------
+% argument gives character to use for the link
+\newcommand{\preprints}[1]{
+\reshead{Submitted Publications}
+\begin{enumerate}
+\item \SPTptsrctwohttp{#1}
+\item \ACTtwobandptsrchttp{#1}
+\item \actfinalbeamhttp{#1}
+\item \actfinalpwrhttp{#1}
+\item \actfinalparamhttp{#1}
+\end{enumerate}
+}
+
+\newcommand{\refereed}[1]{
+\reshead{Refereed Publications}
+\begin{enumerate}
+\item \actfinalszhttp{#1}
+\item \actfinallikehttp{#1}
+\item \GBTautopowerhttp{#1}
+\item \preplanckhttp{#1}
+\item \SZmomentshttp{#1}
+\item \ACTSZrichnesshttp{#1}
+\item \ACTcluseqhttp{#1}
+\item \recombmodeshttp{#1}
+\item \GBTxWiggleZhttp{#1}
+\item \ACTdatahttp{#1}
+\item \ACTskewnesshttp{#1}
+\item \ACTkxQSOhttp{#1}
+\item \ACTkSZxBOSShttp{#1}
+\item \HeItranshttp{#1}
+\item \ACTSZAhttp{#1}
+\item \ACTPpowerhttp{#1}
+\item \ACTxBLASThttp{#1}
+\item \ACTcalibhttp{#1}
+\item \ACTparamhttp{#1}
+\item \ACTclustercataloghttp{#1}
+\item \ACTLambdahttp{#1}
+\item \ACTlenshttp{#1}
+\item \ACTLRGhttp{#1}
+\item \Steppenwolfhttp{#1}
+\item \ACTinstrumenthttp{#1}
+\item \ACTclustercosmohttp{#1}
+\item \ACTptsrchttp{#1}
+\item \ACTdaspwrhttp{#1}
+\item \actbeamszhttp{#1}
+\item \ACTopticalclusterhttp{#1}
+\item \HeIforesthttp{#1}
+\item \actpwrspechttp{#1}
+\item \sptptsrcclusteringhttp{#1}
+\item \sptptsrcmethodhttp{#1}
+\item \sptptsrccataloghttp{#1}
+\item \hethreeplushttp{#1}
+\item \thesishttp{#1}
+\item \recthreehttp{#1}
+\item \rectwohttp{#1}
+\item \reconehttp{#1}
+\item \actopthttp{#1}
+\item \lisupphttp{#1}
+\item \neutrinolsshttp{#1}
+\item \electrochemhttp{#1}
+\end{enumerate}
+}
+
+\newcommand{\broaderpublication}[1]{
+\reshead{Publications}
+\begin{enumerate}
+\item \SPTptsrctwohttp{#1}
+\item \ACTtwobandptsrchttp{#1}
+\item \GBTautopowerhttp{#1}
+\item \actfinalbeamhttp{#1}
+\item \preplanckhttp{#1}
+\item \actfinalpwrhttp{#1}
+\item \actfinallikehttp{#1}
+\item \actfinalszhttp{#1}
+\item \actfinalparamhttp{#1}
+\item \recombmodeshttp{#1}
+\item \SZmomentshttp{#1}
+\item \ACTcluseqhttp{#1}
+\item \GBTxWiggleZhttp{#1}
+\item \ACTdatahttp{#1}
+\item \ACTkxQSOhttp{#1}
+\item \HeItranshttp{#1}
+\item \ACTSZrichnesshttp{#1}
+\item \ACTPpowerhttp{#1}
+\item \ACTskewnesshttp{#1}
+\item \ACTkSZxBOSShttp{#1}
+\item \ACTSZAhttp{#1}
+\item \ACTLambdahttp{#1}
+\item \ACTlenshttp{#1}
+\item \ACTLRGhttp{#1}
+\item \Steppenwolfhttp{#1}
+\item \ACTdaspwrhttp{#1}
+\item \ACTxBLASThttp{#1}
+\item \actbeamszhttp{#1}
+\item \ACTclustercosmohttp{#1}
+\item \ACTclustercataloghttp{#1}
+\item \ACTparamhttp{#1}
+\item \ACTcalibhttp{#1}
+\item \ACTptsrchttp{#1}
+\item \ACTinstrumenthttp{#1}
+\item \ACTopticalclusterhttp{#1}
+\item \HeIforesthttp{#1}
+\item \actpwrspechttp{#1}
+\item \sptptsrcclusteringhttp{#1}
+\item \sptptsrcmethodhttp{#1}
+\item \sptptsrccataloghttp{#1}
+\item \hethreeplushttp{#1}
+\item \thesishttp{#1}
+\item \recthreehttp{#1}
+\item \rectwohttp{#1}
+\item \reconehttp{#1}
+\item \actopthttp{#1}
+\item \lisupphttp{#1}
+\item \neutrinolsshttp{#1}
+\item \electrochemhttp{#1}
+\end{enumerate}
+}
+
+\newcommand{\reports}[1]{
+\reshead{Proceedings, Reports}
+\begin{enumerate}
+\item \SCMAVprochttp{#1}
+\item \SPIEmcehttp{#1}
+\item \SPIEtelehttp{#1}
+\item \SPIEmbachttp{#1}
+\item \SPIEsyshttp{#1}
+\item \SPIEopthttp{#1}
+\item \SPIEteshttp{#1}
+\item \actkilohttp{#1}
+\item \aiguide
+\item \gslhome %
+\item \actprogresshttp{#1}
+\item \niemackmmtes %
+\item \advproj %
+\item \SDSSreport %
+\item \neutrinolssprochttp{#1}
+\item \bathesis
+\item \hermes %
+%\item \mucool %
+%\item \mucoolamp{#1} %
+%\item \sspferonia{#1} %
+\end{enumerate}
+}
+
+\newcommand{\allpublications}[1]{
+\reshead{Publications}
+\begin{enumerate}
+\item \SPTptsrctwohttp{#1}
+\item \ACTtwobandptsrchttp{#1}
+\item \GBTautopowerhttp{#1}
+\item \actfinalbeamhttp{#1}
+\item \preplanckhttp{#1}
+\item \actfinalpwrhttp{#1}
+\item \actfinallikehttp{#1}
+\item \actfinalszhttp{#1}
+\item \actfinalparamhttp{#1}
+\item \recombmodeshttp{#1}
+\item \SZmomentshttp{#1}
+\item \ACTcluseqhttp{#1}
+\item \GBTxWiggleZhttp{#1}
+\item \ACTdatahttp{#1}
+\item \ACTkxQSOhttp{#1}
+\item \HeItranshttp{#1}
+\item \SCMAVprochttp{#1}
+\item \ACTSZrichnesshttp{#1}
+\item \ACTPpowerhttp{#1}
+\item \ACTskewnesshttp{#1}
+\item \ACTkSZxBOSShttp{#1}
+\item \ACTSZAhttp{#1}
+\item \ACTLambdahttp{#1}
+\item \ACTlenshttp{#1}
+\item \ACTLRGhttp{#1}
+\item \Steppenwolfhttp{#1}
+\item \ACTdaspwrhttp{#1}
+\item \ACTxBLASThttp{#1}
+\item \actbeamszhttp{#1}
+\item \ACTclustercosmohttp{#1}
+\item \ACTclustercataloghttp{#1}
+\item \ACTparamhttp{#1}
+\item \ACTcalibhttp{#1}
+\item \ACTptsrchttp{#1}
+\item \ACTinstrumenthttp{#1}
+\item \ACTopticalclusterhttp{#1}
+\item \HeIforesthttp{#1}
+\item \actpwrspechttp{#1}
+\item \sptptsrcclusteringhttp{#1}
+\item \sptptsrcmethodhttp{#1}
+\item \sptptsrccataloghttp{#1}
+\item \hethreeplushttp{#1}
+\item \thesishttp{#1}
+\item \SPIEmcehttp{#1}
+\item \SPIEtelehttp{#1}
+\item \SPIEmbachttp{#1}
+\item \SPIEsyshttp{#1}
+\item \SPIEopthttp{#1}
+\item \SPIEteshttp{#1}
+\item \recthreehttp{#1}
+\item \rectwohttp{#1}
+\item \reconehttp{#1}
+\item \actkilohttp{#1}
+\item \aiguide
+%\item \gslhome
+\item \actopthttp{#1}
+\item \actprogresshttp{#1}
+%\item \niemackmmtes
+\item \lisupphttp{#1}
+%\item \advproj
+%\item \SDSSreport
+\item \neutrinolssprochttp{#1}
+\item \neutrinolsshttp{#1}
+\item \bathesis
+%\item \hermes
+%\item \mucool
+%\item \mucoolamp{#1}
+%\item \sspferonia{#1}
+\item \electrochemhttp{#1}
+\end{enumerate}
+}
+
+\newcommand{\talksreports}[1]{
+\reshead{Talks, Proceedings, Reports}
+\begin{enumerate}
+\item \KITPGBT
+\item \OhioGBT
+\item \NASAjobtalk
+\item \CMUjobtalk
+\item \PennGBT
+\item \ICTPGBT
+\item \SCMAVprochttp{#1}
+\item \WaterlooGBT
+\item \cancunGBT
+\item \GTWOKGBT
+\item \SCMAVhttp{#1}
+\item \CITAfore
+\item \KICPGBT
+\item \CITAJobhttp{#1}
+\item \FNALJobhttp{#1}
+\item \BerkeleySPThttp{#1}
+\item \KICPSPT
+\item \EPAenergyhttp{#1}
+\item \hyperfineradtranshttp{#1}
+\item \MPArecombinationtwo{#1}
+\item \MPArecombinationone{#1}
+\item \SPIEteshttp{#1}
+\item \SPIEopthttp{#1}
+\item \SPIEsyshttp{#1}
+\item \SPIEmbachttp{#1}
+\item \SPIEtelehttp{#1}
+\item \SPIEmcehttp{#1}
+\item \ggfour{#1}
+%\item \postdoctalks
+\item \postdoctalksberkeley
+\item \postdoctalkschicago
+\item \actkilohttp{#1}
+\item \ggthree{#1}
+\item \gslhome
+\item \aiguide
+\item \actprogresshttp{#1}
+\item \niemackmmtes
+\item \ggtwo
+%\item \advproj
+\item \ggone
+%\item \SDSSreport
+\item \neutrinolssprochttp{#1}
+\item \bathesis
+%\item \hermes
+%\item \mucool
+%\item \mucoolamp{#1}
+%\item \sspferonia{#1}
+\end{enumerate}
+}
+
+\newcommand{\talks}[1]{
+\reshead{Talks}
+\begin{enumerate}
+\item \KITPGBT
+\item \OhioGBT
+\item \NASAjobtalk
+\item \CMUjobtalk
+\item \PennGBT
+\item \ICTPGBT
+\item \WaterlooGBT
+\item \cancunGBT
+\item \GTWOKGBT
+\item \SCMAVhttp{#1}
+\item \CITAfore
+\item \KICPGBT
+\item \CITAJobhttp{#1}
+\item \FNALJobhttp{#1}
+\item \BerkeleySPThttp{#1}
+\item \KICPSPT
+\item \EPAenergyhttp{#1}
+\item \hyperfineradtranshttp{#1}
+\item \KICPhyperfine
+\item \energygrouphttp{#1}
+\item \thesistalk
+\item \MPArecombinationtwo
+\item \MPArecombinationone
+\item \ggfour
+%\item \postdoctalks
+\item \postdoctalksberkeley
+\item \postdoctalkschicago
+\item \ggthree
+\item \ggtwo
+\item \ggone
+\end{enumerate}
+}
+%\item \refineries
+%\item \solartheory
+%\item \energygeneral
+
+\newcommand{\invitedtalks}[1]{
+\reshead{Invited Talks}
+\begin{enumerate}
+\item \KITPGBT
+\item \OhioGBT
+\item \NASAjobtalk
+\item \CMUjobtalk
+\item \PennGBT
+\item \WaterlooGBT
+\item \SCMAVhttp{#1}
+\item \CITAfore
+\item \CITAJobhttp{#1}
+\item \FNALJobhttp{#1}
+\item \BerkeleySPThttp{#1}
+\item \EPAenergyhttp{#1}
+\item \ComptonLecture{#1}
+\item \KICPhyperfine
+\item \MPArecombinationtwo
+\item \MPArecombinationone
+%\item \postdoctalks
+\item \postdoctalksberkeley
+\item \postdoctalkschicago
+\end{enumerate}
+}
+
+\newcommand{\uninvitedtalks}[1]{
+\reshead{Talks}
+\begin{enumerate}
+\item \ICTPGBT
+\item \cancunGBT
+\item \GTWOKGBT
+\item \KICPGBT
+\item \KICPSPT
+\item \hyperfineradtranshttp{#1}
+\item \energygrouphttp{#1}
+\item \thesistalk
+\item \ggfour
+\item \ggthree
+\item \ggtwo
+\item \ggone
+\end{enumerate}
+}
+
