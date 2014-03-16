@@ -311,7 +311,7 @@ def main() :
     #data = bib.json()
     #post_request( data )
     #print bib.records.keys()
-    print bib.records['2010ApJ...718..513C']
+    print bib.records['2014MNRAS.tmp..231M']['author']
     print 'done...'
     
 if __name__ == "__main__" :
