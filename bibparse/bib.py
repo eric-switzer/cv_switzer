@@ -264,7 +264,7 @@ class Bibparser() :
 
     def parse_authors( self, authors ) :
         res = []        
-        authors = authors.split('and')
+        authors = authors.split(' and ')
         for author in authors :
             _author = author.split(',')
             family = _author[0].strip().rstrip()

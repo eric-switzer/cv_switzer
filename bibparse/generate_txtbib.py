@@ -18,14 +18,6 @@ def process_bibfile(filename):
     return biblio
 
 
-def make_biblist():
-    biblio = process_bibfile("switzer.bib")
-
-    for ads_tag in biblio.records:
-        entry = biblio.records[ads_tag]
-        print ads_tag, entry['title']
-
-
 def lookup_month(month):
     lookup = {"jan": 1, "feb": 2, "mar": 3, "apr": 4, \
               "may": 5, "jun": 6, "jul": 7, "aug": 8, \
@@ -98,23 +90,16 @@ def format_article_txt(entry):
 
     bibitem += '.\n'
 
-    print "-" * 80
+    #print "-" * 80
     print bibitem
-    for (k, v) in entry.iteritems():
-        print k, v
+    #for (k, v) in entry.iteritems():
+    #    print k, v
 
-def main():
-    biblio = process_bibfile("switzer.bib")
 
-    # read the requested selected bib and order
+def ordered_list(biblio_dict, ads_ids):
     ads_list = []
-    for bibitem in fileinput.input():
-        if bibitem[0] == "#":
-            print "skipping", bibitem
-            continue
-
-        ads_tag = bibitem.split()[0]
-        entry = biblio.records[ads_tag]
+    for ads_tag in ads_ids:
+        entry = biblio_dict[ads_tag]
 
         try:
             year = entry['issued']['literal']
@@ -131,9 +116,35 @@ def main():
         ads_list.append((int(year), int(num_month), ads_tag))
         #print ads_tag, year, month, num_month
 
-    ads_list = sorted(ads_list)
+    ads_list = sorted(ads_list, reverse=True)
     ads_list = [item[2] for item in ads_list]
-    print ads_list
+    return ads_list
+
+
+def make_biblist():
+    biblio = process_bibfile("switzer.bib")
+
+    ads_list = ordered_list(biblio.records, biblio.records.keys())
+
+    for ads_tag in ads_list:
+        entry = biblio.records[ads_tag]
+        print ads_tag, entry['title']
+
+
+def main():
+    biblio = process_bibfile("switzer.bib")
+
+    # read the requested selected bib and order
+    ads_list = []
+    for bibitem in fileinput.input():
+        if bibitem[0] == "#":
+            #print "skipping", bibitem
+            continue
+
+        ads_tag = bibitem.split()[0]
+        ads_list.append(ads_tag)
+
+    ads_list = ordered_list(biblio.records, ads_list)
 
     for ads_tag in ads_list:
         entry = biblio.records[ads_tag]
