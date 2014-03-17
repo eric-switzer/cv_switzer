@@ -62,7 +62,8 @@ class Bibparser() :
         # compile some regexes
         self.white = re.compile(r"[\n|\s]+")
         self.nl = re.compile(r"[\n]")
-        self.token_re = re.compile(r"([^\s\"#%'(){}@,=]+|\n|@|\"|{|}|=|,)")
+        #self.token_re = re.compile(r"([^\s\"#%'(){}@,=]+|\n|@|\"|{|}|=|,)")
+        self.token_re = re.compile(r"([^\s\"#%{}@,=]+|\n|@|\"|{|}|=|,)")
     
     def parse(self) :
         """Parses self.data and stores the parsed bibtex to self.rec"""
@@ -235,22 +236,23 @@ class Bibparser() :
                                 val = val.replace('--', '-')
                                 k = 'page'
 
-                            if k == 'title' :
+                            if k == 'title':
+                                val = val.replace(" , ", ", ")
+                                val = val[2:-2]
                                 #   Preserve capitalization, as described in
                                 #   http://tex.stackexchange.com/questions/7288/preserving-capitalization-in-bibtex-titles
                                 #   This will likely choke on nested
                                 #   curly-brackets, but that doesn't seem like
                                 #   an ordinary practice.
-                                def capitalize(s):
-                                    return s.group(1) + s.group(2).upper()
-                                while val.find('{') > -1:
-                                    caps = (val.find('{'), val.find('}'))
-                                    val = val.replace(val[caps[0]:caps[1]+1],
-re.sub("(^|\s)(\S)", capitalize, val[caps[0]+1:caps[1]]).strip())
-                        
+                            #    def capitalize(s):
+                            #        return s.group(1) + s.group(2).upper()
+                            #    while val.find('{') > -1:
+                            #        caps = (val.find('{'), val.find('}'))
+                            #        val = val.replace(val[caps[0]:caps[1]+1], re.sub("(^|\s)(\S)", capitalize, val[caps[0]+1:caps[1]]).strip())
+
                             self.records[ key ][k] = val
-                        if self.token != ',' :                      
-                            break               
+                        if self.token != ',' :
+                            break
                     if self.token == '}' :
                         pass
                     else :
