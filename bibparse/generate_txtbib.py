@@ -31,7 +31,7 @@ def lookup_month(month):
     return val
 
 
-def extract_name(name_entry):
+def extract_name(name_entry, use_tex=False):
     last_name = name_entry['family']
     last_name = re.sub('[{}]', '', last_name)
     last_name = last_name.strip()
@@ -39,6 +39,9 @@ def extract_name(name_entry):
     try:
         first_initials = name_entry['given']
         first_initials = first_initials.replace("~", " ")
+        if use_tex:
+            first_initials = first_initials.replace(".", ".\\,")
+
         fullname = "%s %s" % (first_initials, last_name)
     except KeyError:
         fullname = last_name
@@ -54,7 +57,8 @@ def tex_friendly(input_txt):
 def format_article_txt(entry, use_tex=True, crosscheck=False):
     #print entry['title']
     author_list = entry['author']
-    author_list = [extract_name(item) for item in author_list]
+    author_list = [extract_name(item, use_tex=use_tex) \
+                   for item in author_list]
 
     if (("Collaboration" not in author_list[-1]) and \
         len(author_list) > 2):
@@ -64,7 +68,6 @@ def format_article_txt(entry, use_tex=True, crosscheck=False):
     entry['author_list'] = author_list
 
     if use_tex:
-        author_list = entry['author_list']
         title = entry['title']
         title = tex_friendly(title)
         bibitem = '\item ``%s\'\', %s' % (title, author_list)
