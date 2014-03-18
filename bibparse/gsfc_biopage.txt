@@ -1,0 +1,39 @@
+Masui, K. W., E. R. Switzer, N. Banavar, et al. 2013. "Measurement of 21 cm Brightness Fluctuations at z ~ 0.8 in Cross-correlation." ApJL 763 L20
+
+Switzer, E. R., K. W. Masui, K. Bandura, et al. 2013. "Determination of z ~ 0.8 neutral hydrogen fluctuations using the 21 cm intensity mapping autocorrelation." MNRASL 434 L46
+
+Farhang, M., J. R. Bond, J. Chluba, and E. R. Switzer. 2013. "Constraints on Perturbations to the Recombination History from Measurements of the Cosmic Microwave Background Damping Tail." ApJ 764 137
+
+Calabrese, E., R. A. Hlozek, N. Battaglia, et al. 2013. "Cosmological parameters from pre-planck cosmic microwave background measurements." PRD 87 103012
+
+Chluba, J., E. Switzer, K. Nelson, and D. Nagai. 2013. "Sunyaev-Zeldovich signal processing and temperature-velocity moment method for individual clusters." MNRAS 430 3054
+
+Dunner, R., M. Hasselfield, T. A. Marriage, et al. 2013. "The Atacama Cosmology Telescope: Data Characterization and Mapmaking." ApJ 762 10
+
+Hand, N., G. E. Addison, E. Aubourg, et al. 2012. "Evidence of Galaxy Cluster Motions with the Kinematic Sunyaev-Zel'dovich Effect." PRL 109 41101
+
+Dunkley, J., R. Hlozek, J. Sievers, et al. 2011. "The Atacama Cosmology Telescope: Cosmological Parameters from the 2008 Power Spectrum." ApJ 739 52
+
+Sherwin, B. D., J. Dunkley, S. Das, et al. 2011. "Evidence for Dark Energy from the Cosmic Microwave Background Alone Using the Atacama Cosmology Telescope Lensing Measurements." PRL 107 21302
+
+Swetz, D. S., P. Ade, M. Amiri, et al. 2011. "Overview of the Atacama Cosmology Telescope: Receiver, Instrumentation, and Telescope Systems." ApJS 194 41
+
+Abbot, D. S., and E. R. Switzer. 2011. "The Steppenwolf: A Proposal for a Habitable Planet in Interstellar Space." ApJL 735 L27
+
+Vieira, J. D., T. M. Crawford, E. R. Switzer, et al. 2010. "Extragalactic Millimeter-wave Sources in South Pole Telescope Survey Data: Source Counts, Catalog, and Statistics for an 87 Square-degree Field." ApJ 719 763
+
+Crawford, T. M., E. R. Switzer, W. L. Holzapfel, et al. 2010. "A Method for Individual Source Brightness Estimation in Single- and Multi-band Data." ApJ 718 513
+
+McQuinn, M., and E. R. Switzer. 2009. "Redshifted intergalactic He+3 8.7 GHz hyperfine absorption." PRD 80 63010
+
+Switzer, E. R., C. Allen, M. Amiri, et al. 2008. "Systems and control software for the Atacama Cosmology Telescope." Proc. SPIE 7019 85
+
+Hirata, C. M., and E. R. Switzer. 2008. "Primordial helium recombination. II. Two-photon processes." PRD 77 83007
+
+Switzer, E. R., and C. M. Hirata. 2008. "Primordial helium recombination. I. Feedback, line transfer, and continuum opacity." PRD 77 83006
+
+Switzer, E. R., and C. M. Hirata. 2008. "Primordial helium recombination. III. Thomson scattering, isotope shifts, and cumulative results." PRD 77 83008
+
+Switzer, E. R., and C. M. Hirata. 2005. "Ionizing radiation from hydrogen recombination strongly suppresses the lithium scattering signature in the CMB." PRD 72 83002
+
+Abazajian, K., E. R. Switzer, S. Dodelson, K. Heitmann, and S. Habib. 2005. "Nonlinear cosmological matter power spectrum with massive neutrinos: The halo model." PRD 71 43507

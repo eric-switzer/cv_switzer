@@ -45,7 +45,13 @@ def extract_name(name_entry):
 
     return fullname
 
-def format_article_txt(entry):
+
+def tex_friendly(input_txt):
+    output_tex = input_txt.replace("~", "$\\sim$")
+    return output_tex
+
+
+def format_article_txt(entry, use_tex=True, crosscheck=False):
     #print entry['title']
     author_list = entry['author']
     author_list = [extract_name(item) for item in author_list]
@@ -57,9 +63,19 @@ def format_article_txt(entry):
     author_list = ", ".join(author_list)
     entry['author_list'] = author_list
 
-    bibitem = '\"%(title)s\", %(author_list)s' % entry
+    if use_tex:
+        author_list = entry['author_list']
+        title = entry['title']
+        title = tex_friendly(title)
+        bibitem = '\item ``%s\'\', %s' % (title, author_list)
+    else:
+        bibitem = '\"%(title)s\", %(author_list)s' % entry
+
     if "journal" in entry:
-        bibitem += ', %(journal)s' % entry
+        if use_tex:
+            bibitem += ', {\\it %(journal)s}' % entry
+        else:
+            bibitem += ', %(journal)s' % entry
 
         if entry['journal'].lower() == 'arxiv':
             bibitem += ' (%(eprint)s)' % entry
@@ -88,12 +104,17 @@ def format_article_txt(entry):
         year = entry['issued']['literal']
         bibitem += ' (%s)' % year
 
-    bibitem += '.\n'
+    if use_tex:
+        bibitem += '.'
+    else:
+        bibitem += '.\n'
 
-    #print "-" * 80
+    if crosscheck:
+        print "-" * 80
+        for (k, v) in entry.iteritems():
+            print k, v
+
     print bibitem
-    #for (k, v) in entry.iteritems():
-    #    print k, v
 
 
 def ordered_list(biblio_dict, ads_ids):

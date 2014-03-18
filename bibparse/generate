@@ -1,0 +1,1 @@
+python generate_txtbib.py selected_7.txt > ../short-pubs-7.tex
