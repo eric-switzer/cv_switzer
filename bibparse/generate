@@ -1,1 +1,2 @@
 python generate_txtbib.py selected_7.txt > ../short-pubs-7.tex
+python generate_txtbib.py selected_22.txt > ../short-pubs-22.tex

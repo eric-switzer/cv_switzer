@@ -73,7 +73,7 @@ Mar. 2010    & Early-stage textbook review, Cambridge University Press. \\
 Oct. 2009 -- Dec. 2009 & ``The Physics of Energy Devices," Compton Lecture Series, University of Chicago (10 public lectures). \\
 May 2009 issue & Interview: George Musser, ``Spectral Sensation," {\it Scientific American}. \\
 2008--2010     & Founder and organizer of the energy technology student group within the University of Chicago physics department. \\
-2007--         & Referee: {\it The Astrophysical Journal}, MNRAS. \\
+2007--         & Referee: {\it The Astrophysical Journal}, MNRAS, JOAA. \\
 May 2006 -- Sep. 2006 & Developed physics teaching guide for the McGraw Center for Teaching and Learning at Princeton. \\
 Sep. 2005 -- Dec. 2005 & Introductory Integrated Engineering/Math/Physics, Problem session (Teaching Assistantship), Princeton. \\ % 191
 Feb. 2005 -- May 2005 & Introductory Engineering Physics, Supplemental problem sessions (Teaching Assistantship), Princeton. \\ %104
@@ -84,6 +84,17 @@ Sep. 2004 -- May 2005 & Introductory General Physics, Labs (Teaching Assistantsh
 %------------------------------------------------------------------------------
 %publication definitions
 %------------------------------------------------------------------------------
+\newcommand{\GlobalFG}{{\bf E.\ R.\ Switzer}, A.\ Liu, ``Erasing the
+variable: Empirical foreground discovery for global 21 cm spectrum
+experiments", astro-ph/1404.7561 (2014).}
+\newcommand{\GlobalFGhttp}[1]{\linkarticle{\GlobalFG}{http://arxiv.org/abs/1404.7561}{#1}}
+
+\newcommand{\VPMReview}{D.\ T.\ Chuss, J.\ R.\ Eimer, D.\ J.\ Fixsen, J.\
+Hinderks, A.\ J.\ Kogut, J.\ Lazear, P.\ Mirel, {\bf E.\ R.\ Switzer}, G.\ M.\
+Voellmer, E.\ J.\ Wollack, ``Variable-delay Polarization Modulators for
+Cryogenic Millimeter-wave Applications", astro-ph/1403.1652 (2014).}
+\newcommand{\VPMReviewhttp}[1]{\linkarticle{\VPMReview}{http://arxiv.org/abs/1403.1652}{#1}}
+
 \newcommand{\ACTlensxoptlens}{N.\ Hand, A.\ Leauthaud, S.\ Das, B.\ D. Sherwin, ACT
 Collaboration, ``First Measurement of the Cross-Correlation of CMB Lensing and
 Galaxy Lensing", astro-ph/1311.6200 (2013).}
@@ -104,8 +115,8 @@ ApJ}~{\bf 779}(1) 61 (2013).}
 \newcommand{\ACTtwobandptsrc}{D.\ Marsden, M.\ Gralla, T.\ A.\ Marriage, {\bf
 E.\ R.\ Switzer}, B.\ Partridge, M.\ Massardi, G.\ Morales, ACT Collaboration,
 ``The Atacama Cosmology Telescope: Dusty Star-Forming Galaxies and Active
-Galactic Nuclei in the Southern Survey," astro-ph/1306.2288 (2013).}
-\newcommand{\ACTtwobandptsrchttp}[1]{\linkarticle{\ACTtwobandptsrc}{http://arxiv.org/abs/1306.2288}{#1}}
+Galactic Nuclei in the Southern Survey," {\em MNRAS}~{\bf 439}(2) 1556 (2014).}
+\newcommand{\ACTtwobandptsrchttp}[1]{\linkarticle{\ACTtwobandptsrc}{http://adsabs.harvard.edu/abs/2014MNRAS.439.1556M}{#1}}
 
 \newcommand{\GBTautopower}{{\bf E.\ R.\ Switzer}, K.\ W.\ Masui, K.\ Bandura,
 L.-M.\ Calin, T.-C.\ Chang, X.-L.\ Chen, Y.-C.\ Li, Y.-W.\ Liao, A.\ Natarajan,
@@ -141,8 +152,8 @@ Clusters on the Celestial Equator," {\em ApJ}~{\bf 765}(1) 67, (2013).}
 
 \newcommand{\actfinalpwr}{S.\ Das, T.\ Louis, M.\ R.\ Nolta, ACT Collaboration,
 ``The Atacama Cosmology Telescope: Temperature and Gravitational Lensing Power
-Spectrum Measurements from Three Seasons of Data," astro-ph/1301.1037 (2013).}
-\newcommand{\actfinalpwrhttp}[1]{\linkarticle{\actfinalpwr}{http://arxiv.org/abs/1301.1037}{#1}}
+Spectrum Measurements from Three Seasons of Data," {\rm JCAP}~{\bf 4} 14, (2014).}
+\newcommand{\actfinalpwrhttp}[1]{\linkarticle{\actfinalpwr}{http://adsabs.harvard.edu/abs/2014JCAP...04..014D}{#1}}
 
 \newcommand{\actfinallike}{J.\ Dunkley, E.\ Calabrese, J.\ Sievers, ACT
 Collaboration, ``The Atacama Cosmology Telescope: likelihood for small-scale
@@ -382,6 +393,13 @@ CMU, physics colloquium}, Jan. 2013.} % Jan. 22
 \newcommand{\PennGBT}{``$21$~cm Intensity Mapping with the Green Bank
 Telescope," {\em UPenn, astrophysics seminar}, Dec. 2012.} % Dec. 12
 
+\newcommand{\PIPERAASStokesV}{``The Primordial Inflation Polarization ExploreR:
+Science from Circular Polarization Measurements", {\em AAS 223}, Jan. 2014.}
+
+% Mar 26
+\newcommand{\BICEPlocal}{``BICEP2: detection of B-mode polarization at degree
+angular scales", {\em presentation for GSFC Fermi group}, Mar. 2014.}
+
 % http://cdsagenda5.ictp.trieste.it/full_display.php?ida=a11171
 \newcommand{\ICTPGBT}{``$21$~cm Intensity Mapping with the Green Bank
 Telescope," {\em Workshop on Recent Developments in Astronuclear and
@@ -602,16 +620,18 @@ asteroid 72-Feronia, submitted to Harvard small planet catalog. (1998).}
 \newcommand{\preprints}[1]{
 \reshead{Submitted Publications}
 \begin{enumerate}
+\item \GlobalFGhttp{#1}
+\item \VPMReviewhttp{#1}
 \item \ACTlensxoptlenshttp{#1}
 \item \ACTSZRadiohttp{#1}
-\item \ACTtwobandptsrchttp{#1}
-\item \actfinalpwrhttp{#1}
 \end{enumerate}
 }
 
 \newcommand{\refereed}[1]{
 \reshead{Refereed Publications}
 \begin{enumerate}
+\item \actfinalpwrhttp{#1}
+\item \ACTtwobandptsrchttp{#1}
 \item \SPTptsrctwohttp{#1}
 \item \actfinalparamhttp{#1}
 \item \actfinalbeamhttp{#1}
@@ -665,6 +685,8 @@ asteroid 72-Feronia, submitted to Harvard small planet catalog. (1998).}
 \newcommand{\broaderpublication}[1]{
 \reshead{Publications}
 \begin{enumerate}
+\item \GlobalFGhttp{#1}
+\item \VPMReviewhttp{#1}
 \item \ACTlensxoptlenshttp{#1}
 \item \ACTSZRadiohttp{#1}
 \item \SPTptsrctwohttp{#1}
@@ -748,6 +770,8 @@ asteroid 72-Feronia, submitted to Harvard small planet catalog. (1998).}
 \newcommand{\allpublications}[1]{
 \reshead{Publications}
 \begin{enumerate}
+\item \GlobalFGhttp{#1}
+\item \VPMReviewhttp{#1}
 \item \ACTlensxoptlenshttp{#1}
 \item \ACTSZRadiohttp{#1}
 \item \SPTptsrctwohttp{#1}
@@ -823,8 +847,10 @@ asteroid 72-Feronia, submitted to Harvard small planet catalog. (1998).}
 }
 
 \newcommand{\talksreports}[1]{
-\reshead{Talks, Proceedings, Reports}
+\reshead{Talks, Proceedings, Posters, Reports}
 \begin{enumerate}
+\item \BICEPlocal
+\item \PIPERAASStokesV
 \item \SEDPIPER
 \item \KITPGBT
 \item \OhioGBT
@@ -877,8 +903,10 @@ asteroid 72-Feronia, submitted to Harvard small planet catalog. (1998).}
 }
 
 \newcommand{\talks}[1]{
-\reshead{Talks}
+\reshead{Talks, posters}
 \begin{enumerate}
+\item \BICEPlocal
+\item \PIPERAASStokesV
 \item \SEDPIPER
 \item \KITPGBT
 \item \OhioGBT
@@ -943,8 +971,10 @@ asteroid 72-Feronia, submitted to Harvard small planet catalog. (1998).}
 }
 
 \newcommand{\uninvitedtalks}[1]{
-\reshead{Talks}
+\reshead{Talks, Posters}
 \begin{enumerate}
+\item \BICEPlocal
+\item \PIPERAASStokesV
 \item \ICTPGBT
 \item \cancunGBT
 \item \GTWOKGBT

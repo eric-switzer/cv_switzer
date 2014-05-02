@@ -1,0 +1,63 @@
+2014arXiv1403.1652C Variable-delay Polarization Modulators for Cryogenic Millimeter-wave Applications
+2014MNRAS.439.1556M The Atacama Cosmology Telescope: dusty star-forming galaxies and active galactic nuclei in the Southern survey
+2014AAS...22343905S The Primordial Inflation Polarization Explorer: Science from Circular Polarization Measurements
+2014AAS...22343902L PIPER: Primordial Inflation Polarization Explorer
+2013ApJ...779...61M Extragalactic Millimeter-wave Point-source Catalog, Number Counts and Statistics from 771 deg^2 of the SPT-SZ Survey
+2013arXiv1311.6200H First Measurement of the Cross-Correlation of CMB Lensing and Galaxy Lensing
+2013ApJS..209...17H The Atacama Cosmology Telescope: Beam Measurements and the Microwave Brightness Temperatures of Uranus and Saturn
+2013arXiv1310.8281G A Measurement of the Millimeter Emission and the Sunyaev-Zel'dovich Effect Associated with Low-Frequency Radio Sources
+2013JCAP...10..060S The Atacama Cosmology Telescope: cosmological parameters from three seasons of data
+2013MNRAS.434L..46S Determination of z ~ 0.8 neutral hydrogen fluctuations using the 21 cm intensity mapping autocorrelation
+2013JCAP...07..025D The Atacama Cosmology Telescope: likelihood for small-scale CMB data
+2013JCAP...07..008H The Atacama Cosmology Telescope: Sunyaev-Zel'dovich selected galaxy clusters at 148 GHz from three seasons of data
+2013PhRvD..87j3012C Cosmological parameters from pre-planck cosmic microwave background measurements
+2013ascl.soft04018C SZpack: Computation of Sunyaev-Zel'dovich (SZ) signals
+2013MNRAS.430.3054C Sunyaev-Zel'dovich signal processing and temperature-velocity moment method for individual clusters
+2013ApJ...767...38S The Atacama Cosmology Telescope: Relation between Galaxy Cluster Optical Richness and Sunyaev-Zel'dovich Effect
+2013ApJ...765...67M The Atacama Cosmology Telescope: Physical Properties of Sunyaev-Zel'dovich Effect Clusters on the Celestial Equator
+2013ApJ...764..137F Constraints on Perturbations to the Recombination History from Measurements of the Cosmic Microwave Background Damping Tail
+2013arXiv1301.1037D The Atacama Cosmology Telescope: Temperature and Gravitational Lensing Power Spectrum Measurements from Three Seasons of Data
+2013ApJ...763L..20M Measurement of 21 cm Brightness Fluctuations at z ~ 0.8 in Cross-correlation
+2013ApJ...762...10D The Atacama Cosmology Telescope: Data Characterization and Mapmaking
+2012PhRvD..86l2005W Atacama Cosmology Telescope: A measurement of the thermal Sunyaev-Zel'dovich effect using the skewness of the CMB temperature distribution
+2012PhRvD..86h3006S The Atacama Cosmology Telescope: Cross-correlation of cosmic microwave background lensing and quasars
+2012PhRvL.109d1101H Evidence of Galaxy Cluster Motions with the Kinematic Sunyaev-Zel'dovich Effect
+2012MNRAS.423.3227C Radiative transfer effects during primordial helium recombination
+2012ApJ...751...12R The Atacama Cosmology Telescope: High-resolution Sunyaev-Zel'dovich Array Observations of ACT SZE-selected Clusters from the Equatorial Strip
+2012ApJ...749...90H The Atacama Cosmology Telescope: A Measurement of the Primordial Power Spectrum
+2012ApJ...744...40H Correlations in the (Sub)millimeter Background from ACT x BLAST
+2011ApJ...740...86H The Atacama Cosmology Telescope: Calibration with the Wilkinson Microwave Anisotropy Probe Using Cross-correlations
+2011ApJ...739...52D The Atacama Cosmology Telescope: Cosmological Parameters from the 2008 Power Spectrum
+2011ApJ...737...61M The Atacama Cosmology Telescope: Sunyaev-Zel'dovich-Selected Galaxy Clusters at 148 GHz in the 2008 Survey
+2011PhRvL.107b1302S Evidence for Dark Energy from the Cosmic Microwave Background Alone Using the Atacama Cosmology Telescope Lensing Measurements
+2011PhRvL.107b1301D Detection of the Power Spectrum of Cosmic Microwave Background Lensing by the Atacama Cosmology Telescope
+2011ApJ...736...39H The Atacama Cosmology Telescope: Detection of Sunyaev-Zel'dovich Decrement in Groups and Clusters Associated with Luminous Red Galaxies
+2011ApJ...735L..27A The Steppenwolf: A Proposal for a Habitable Planet in Interstellar Space
+2011ApJS..194...41S Overview of the Atacama Cosmology Telescope: Receiver, Instrumentation, and Telescope Systems
+2011ApJ...732...44S The Atacama Cosmology Telescope: Cosmology from Galaxy Clusters Detected via the Sunyaev-Zel'dovich Effect
+2011ApJ...731..100M The Atacama Cosmology Telescope: Extragalactic Sources at 148 GHz in the 2008 Survey
+2011ApJ...729...62D The Atacama Cosmology Telescope: A Measurement of the Cosmic Microwave Background Power Spectrum at 148 and 218 GHz from the 2008 Southern Survey
+2010ApJS..191..423H The Atacama Cosmology Telescope (ACT): Beam Profiles and First SZ Cluster Maps
+2010MNRAS.408.1945M The HeI 584 A forest as a diagnostic of helium reionization
+2010ApJ...723.1523M The Atacama Cosmology Telescope: Physical Properties and Purity of a Galaxy Cluster Sample Selected via the Sunyaev-Zel'dovich Effect
+2010ApJ...722.1148F The Atacama Cosmology Telescope: A Measurement of the 600 < l < 8000 Cosmic Microwave Background Power Spectrum at 148 GHz
+2010ApJ...719..763V Extragalactic Millimeter-wave Sources in South Pole Telescope Survey Data: Source Counts, Catalog, and Statistics for an 87 Square-degree Field
+2010ApJ...718..632H Angular Power Spectra of the Millimeter-wavelength Background Light from Dusty Star-forming Galaxies with the South Pole Telescope
+2010arXiv1007.3519C The Herschel-SPIRE Legacy Survey (HSLS): the scientific goals of a shallow and wide submillimeter imaging survey with SPIRE
+2010ApJ...718..513C A Method for Individual Source Brightness Estimation in Single- and Multi-band Data
+2009PhRvD..80f3010M Redshifted intergalactic 3He+ 8.7 GHz hyperfine absorption
+2008SPIE.7020E..57B Automated SQUID tuning procedure for kilo-pixel arrays of TES bolometers on the Atacama Cosmology Telescope
+2008SPIE.7020E..44T Opto-mechanical design and performance of a compact three-frequency camera for the Millimeter Bolometer Array Camera on the Atacama Cosmology Telescope
+2008SPIE.7020E..42H The effects of the mechanical performance and alignment of the Atacama Cosmology Telescope on the sensitivity of microwave observations
+2008SPIE.7020E..20Z Characterization of transition edge sensors for the Millimeter Bolometer Array Camera on the Atacama Cosmology Telescope
+2008SPIE.7020E...6S Instrument design and characterization of the Millimeter Bolometer Array Camera on the Atacama Cosmology Telescope
+2008SPIE.7019E..85S Systems and control software for the Atacama Cosmology Telescope
+2008PhDT........22S Small-scale anisotropies of the cosmic microwave background: Experimental and theoretical perspectives
+2008JLTP..151..690N A Kilopixel Array of TES Bolometers for ACT: Development, Testing, and First Light
+2008PhRvD..77h3008S Primordial helium recombination III: Thomson scattering, isotope shifts, and cumulative results
+2008PhRvD..77h3007H Primordial helium recombination II: Two-photon processes
+2008PhRvD..77h3006S Primordial helium recombination I: Feedback, line transfer, and continuum opacity
+2007ApOpt..46.3444F Optical design of the Atacama Cosmology Telescope and the Millimeter Bolometric Array Camera
+2005PhRvD..72h3002S Ionizing radiation from hydrogen recombination strongly suppresses the lithium scattering signature in the CMB
+2005NuPhS.143..571S Massive Neutrinos and the Halo Model of Large Scale Structure
+2005PhRvD..71d3507A Nonlinear cosmological matter power spectrum with massive neutrinos: The halo model

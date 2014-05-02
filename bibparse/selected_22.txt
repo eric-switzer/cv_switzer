@@ -1,0 +1,22 @@
+2014MNRAS.439.1556M The Atacama Cosmology Telescope: dusty star-forming galaxies and active galactic nuclei in the Southern survey
+2013JCAP...10..060S The Atacama Cosmology Telescope: cosmological parameters from three seasons of data
+2013MNRAS.434L..46S Determination of z ~ 0.8 neutral hydrogen fluctuations using the 21 cm intensity mapping autocorrelation
+2013MNRAS.430.3054C Sunyaev-Zel'dovich signal processing and temperature-velocity moment method for individual clusters
+2013ApJ...764..137F Constraints on Perturbations to the Recombination History from Measurements of the Cosmic Microwave Background Damping Tail
+2013ApJ...763L..20M Measurement of 21 cm Brightness Fluctuations at z ~ 0.8 in Cross-correlation
+2013ApJ...762...10D The Atacama Cosmology Telescope: Data Characterization and Mapmaking
+2012PhRvL.109d1101H Evidence of Galaxy Cluster Motions with the Kinematic Sunyaev-Zel'dovich Effect
+2012ApJ...744...40H Correlations in the (Sub)millimeter Background from ACT x BLAST
+2011PhRvL.107b1302S Evidence for Dark Energy from the Cosmic Microwave Background Alone Using the Atacama Cosmology Telescope Lensing Measurements
+2011ApJ...735L..27A The Steppenwolf: A Proposal for a Habitable Planet in Interstellar Space
+2011ApJS..194...41S Overview of the Atacama Cosmology Telescope: Receiver, Instrumentation, and Telescope Systems
+2010MNRAS.408.1945M The HeI 584 A forest as a diagnostic of helium reionization
+2010ApJ...719..763V Extragalactic Millimeter-wave Sources in South Pole Telescope Survey Data: Source Counts, Catalog, and Statistics for an 87 Square-degree Field
+2010ApJ...718..632H Angular Power Spectra of the Millimeter-wavelength Background Light from Dusty Star-forming Galaxies with the South Pole Telescope
+2010ApJ...718..513C A Method for Individual Source Brightness Estimation in Single- and Multi-band Data
+2009PhRvD..80f3010M Redshifted intergalactic 3He+ 8.7 GHz hyperfine absorption
+2008PhRvD..77h3008S Primordial helium recombination III: Thomson scattering, isotope shifts, and cumulative results
+2008PhRvD..77h3007H Primordial helium recombination II: Two-photon processes
+2008PhRvD..77h3006S Primordial helium recombination I: Feedback, line transfer, and continuum opacity
+2005PhRvD..72h3002S Ionizing radiation from hydrogen recombination strongly suppresses the lithium scattering signature in the CMB
+2005PhRvD..71d3507A Nonlinear cosmological matter power spectrum with massive neutrinos: The halo model
