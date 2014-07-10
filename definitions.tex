@@ -1,4 +1,4 @@
-\newcommand{\lastupdated}{Dec. 10, 2013}
+\newcommand{\lastupdated}{July 10, 2014}
 
 \definecolor{light-gray}{gray}{0.60}
 \definecolor{dark-gray}{gray}{0.30}
@@ -84,6 +84,29 @@ Sep. 2004 -- May 2005 & Introductory General Physics, Labs (Teaching Assistantsh
 %------------------------------------------------------------------------------
 %publication definitions
 %------------------------------------------------------------------------------
+\newcommand{\PIPERSPIE}{J.\ Lazear, P.\ A.\ R.\ Ade, D.\ Benford, C.\ L.\
+Bennett, D.\ T.\ Chuss, J.\ L.\ Dotson, J.\ R.\ Eimer, D.\ J.\ Fixsen, M.\
+Halpern, G.\ Hilton, J.\ Hinderks, G.\ F.\ Hinshaw, K.\ Irwin, C.\ Jhabvala,
+B.\ Johnson, A.\ Kogut, L.\ Lowe, J.\ J.\ McMahon, T.\ M.\ Miller, P.\ Mirel,
+S.\ H.\ Moseley, S.\ Rodriguez, E.\ Sharp, J.\ G.\ Staguhn, {\bf E.\ R.\
+Switzer}, C.\ E.\ Tucker, A.\ Weston, E.\ J.\ Wollack, ``The Primordial
+Inflation Polarization Explorer (PIPER)", astro-ph/1407.2584 (2014).}
+\newcommand{\PIPERSPIEhttp}[1]{\linkarticle{\PIPERSPIE}{http://arxiv.org/abs/1407.2584}{#1}}
+
+\newcommand{\EEtoTTreion}{E.\ Calabrese, R.\ Hlozek, N.\ Battaglia, J.\ R.\
+Bond, F.\ de Bernardis, M.\ J.\ Devlin, A.\ Hajian, S.\ Henderson, J.\ C.\
+Hill, A.\ Kosowsky, T.\ Louis, J.\ McMahon, K.\ Moodley, L.\ Newburgh, M.\ D.\
+Niemack, L.\ A.\ Page, B.\ Partridge, N.\ Sehgal, J.\ L.\ Sievers, D.\ N.\
+Spergel, S.\ T.\ Staggs, {\bf E.\ R. Switzer}, H.\ Trac, E.\ J.\ Wollack,
+``Precision Epoch of Reionization studies with next-generation CMB
+experiments", astro-ph/1406.4794 (2014).}
+\newcommand{\EEtoTTreionhttp}[1]{\linkarticle{\EEtoTTreion}{http://arxiv.org/abs/1406.4794}{#1}}
+
+\newcommand{\ACTPolEE}{S.\ Naess, M.\ Hasselfield, J.\ McMahon, M.\ Niemack,
+ACTPol Collaboration, ``The Atacama Cosmology Telescope: CMB Polarization at
+$200<\ell<9000$", astro-ph/1405.5524 (2014).}
+\newcommand{\ACTPolEEhttp}[1]{\linkarticle{\ACTPolEE}{http://arxiv.org/abs/1405.5524}{#1}}
+
 \newcommand{\GlobalFG}{{\bf E.\ R.\ Switzer}, A.\ Liu, ``Erasing the
 variable: Empirical foreground discovery for global 21 cm spectrum
 experiments", astro-ph/1404.7561 (2014).}
@@ -92,8 +115,8 @@ experiments", astro-ph/1404.7561 (2014).}
 \newcommand{\VPMReview}{D.\ T.\ Chuss, J.\ R.\ Eimer, D.\ J.\ Fixsen, J.\
 Hinderks, A.\ J.\ Kogut, J.\ Lazear, P.\ Mirel, {\bf E.\ R.\ Switzer}, G.\ M.\
 Voellmer, E.\ J.\ Wollack, ``Variable-delay Polarization Modulators for
-Cryogenic Millimeter-wave Applications", astro-ph/1403.1652 (2014).}
-\newcommand{\VPMReviewhttp}[1]{\linkarticle{\VPMReview}{http://arxiv.org/abs/1403.1652}{#1}}
+Cryogenic Millimeter-wave Applications", {\em Rev. Sci. Inst.}~{\bf 85}(6) (2014).}
+\newcommand{\VPMReviewhttp}[1]{\linkarticle{\VPMReview}{http://adsabs.harvard.edu/abs/2014RScI...85f4501C}{#1}}
 
 \newcommand{\ACTlensxoptlens}{N.\ Hand, A.\ Leauthaud, S.\ Das, B.\ D. Sherwin, ACT
 Collaboration, ``First Measurement of the Cross-Correlation of CMB Lensing and
@@ -372,6 +395,11 @@ Chem.\ Soc.\ }~{\bf 120} 3530-3531 (1998).}
 %------------------------------------------------------------------------------
 %reports, proceedings and talks
 %------------------------------------------------------------------------------
+%originally: catching a wave on the last big photosphere
+\newcommand{\GWUBICEP}{``Seeking signs of cosmological inflation in the CMB
+polarization: BICEP2 and efforts at GSFC," {\em GWU DC/MD/VA Astrophysics
+Summer 2014 meeting}, July 2014.} % July 10
+
 \newcommand{\SEDPIPER}{``Measuring mm/sub-mm curls and circles across the sky
 with the Primordial Inflation Polarization Explorer (PIPER)," {\em Science and
 Exploration Directorate Director's Seminar (GSFC)}, Nov. 2013.} % Nov 8
@@ -620,8 +648,9 @@ asteroid 72-Feronia, submitted to Harvard small planet catalog. (1998).}
 \newcommand{\preprints}[1]{
 \reshead{Submitted Publications}
 \begin{enumerate}
+\item \EEtoTTreionhttp{#1}
+\item \ACTPolEEhttp{#1}
 \item \GlobalFGhttp{#1}
-\item \VPMReviewhttp{#1}
 \item \ACTlensxoptlenshttp{#1}
 \item \ACTSZRadiohttp{#1}
 \end{enumerate}
@@ -630,6 +659,7 @@ asteroid 72-Feronia, submitted to Harvard small planet catalog. (1998).}
 \newcommand{\refereed}[1]{
 \reshead{Refereed Publications}
 \begin{enumerate}
+\item \VPMReviewhttp{#1}
 \item \actfinalpwrhttp{#1}
 \item \ACTtwobandptsrchttp{#1}
 \item \SPTptsrctwohttp{#1}
@@ -685,6 +715,8 @@ asteroid 72-Feronia, submitted to Harvard small planet catalog. (1998).}
 \newcommand{\broaderpublication}[1]{
 \reshead{Publications}
 \begin{enumerate}
+\item \EEtoTTreionhttp{#1}
+\item \ACTPolEEhttp{#1}
 \item \GlobalFGhttp{#1}
 \item \VPMReviewhttp{#1}
 \item \ACTlensxoptlenshttp{#1}
@@ -744,6 +776,7 @@ asteroid 72-Feronia, submitted to Harvard small planet catalog. (1998).}
 \newcommand{\reports}[1]{
 \reshead{Proceedings, Reports}
 \begin{enumerate}
+\item \PIPERSPIEhttp{#1}
 \item \SCMAVprochttp{#1}
 \item \SPIEmcehttp{#1}
 \item \SPIEtelehttp{#1}
@@ -770,6 +803,8 @@ asteroid 72-Feronia, submitted to Harvard small planet catalog. (1998).}
 \newcommand{\allpublications}[1]{
 \reshead{Publications}
 \begin{enumerate}
+\item \EEtoTTreionhttp{#1}
+\item \ACTPolEEhttp{#1}
 \item \GlobalFGhttp{#1}
 \item \VPMReviewhttp{#1}
 \item \ACTlensxoptlenshttp{#1}
@@ -790,6 +825,7 @@ asteroid 72-Feronia, submitted to Harvard small planet catalog. (1998).}
 \item \ACTdatahttp{#1}
 \item \ACTkxQSOhttp{#1}
 \item \HeItranshttp{#1}
+\item \PIPERSPIEhttp{#1}
 \item \SCMAVprochttp{#1}
 \item \ACTSZrichnesshttp{#1}
 \item \ACTPpowerhttp{#1}
@@ -849,6 +885,7 @@ asteroid 72-Feronia, submitted to Harvard small planet catalog. (1998).}
 \newcommand{\talksreports}[1]{
 \reshead{Talks, Proceedings, Posters, Reports}
 \begin{enumerate}
+\item \GWUBICEP
 \item \BICEPlocal
 \item \PIPERAASStokesV
 \item \SEDPIPER
@@ -858,6 +895,7 @@ asteroid 72-Feronia, submitted to Harvard small planet catalog. (1998).}
 \item \CMUjobtalk
 \item \PennGBT
 \item \ICTPGBT
+\item \PIPERSPIEhttp{1}
 \item \SCMAVprochttp{#1}
 \item \WaterlooGBT
 \item \cancunGBT
@@ -905,6 +943,7 @@ asteroid 72-Feronia, submitted to Harvard small planet catalog. (1998).}
 \newcommand{\talks}[1]{
 \reshead{Talks, posters}
 \begin{enumerate}
+\item \GWUBICEP
 \item \BICEPlocal
 \item \PIPERAASStokesV
 \item \SEDPIPER
@@ -947,6 +986,7 @@ asteroid 72-Feronia, submitted to Harvard small planet catalog. (1998).}
 \newcommand{\invitedtalks}[1]{
 \reshead{Invited Talks}
 \begin{enumerate}
+\item \GWUBICEP
 \item \SEDPIPER
 \item \KITPGBT
 \item \OhioGBT
