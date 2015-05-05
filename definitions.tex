@@ -1,4 +1,4 @@
-\newcommand{\lastupdated}{July 10, 2014}
+\newcommand{\lastupdated}{May 5, 2015}
 
 \definecolor{light-gray}{gray}{0.60}
 \definecolor{dark-gray}{gray}{0.30}
@@ -61,6 +61,18 @@ diffuse 21 cm emission at $z\sim 1$. Dissertation adviser: Lyman Page.  Title: {
 \end{resitem}
 }
 
+\newcommand{\professional}[1]{
+\begin{resitem}
+\item \reshead{Professional Activities and Collaborations}
+\item 2015      Science Lead, Legacy Archive for Microwave Background Data (LAMBDA)
+\item 2013-     Primordial Inflation Polarization Explorer (PIPER)
+\item 2011-     Green Bank Telescope $21$\,cm Intensity Mapping
+\item 2011-     Atacama Cosmology Telescope (ACTPol)
+\item 2008-2011 South Pole Telescope (SPT, Temperature)
+\item 2005-2011 Atacama Cosmology Telescope (ACT, Temperature)
+\end{resitem}
+}
+
 % CITA postdoc hiring committee 2011
 \newcommand{\teachingservice}[1]{
 ~\\ \reshead{Teaching, Service and Outreach}\\~\\
@@ -89,6 +101,9 @@ Sep. 2004 -- May 2005 & Introductory General Physics, Labs (Teaching Assistantsh
 %------------------------------------------------------------------------------
 %publication definitions
 %------------------------------------------------------------------------------
+\newcommand{\IMmethods}{{\bf E.\ R.\ Switzer}, T.-C.\ Chang, K.\ W.\ Masui, U.-L.\ Pen, T.\ C.\ Voytek, ``Interpreting the unresolved intensity of cosmologically redshifted line radiation", astro-ph/1504.07527 (2015).}
+\newcommand{\IMmethodshttp}[1]{\linkarticle{\IMmethods}{http://adsabs.harvard.edu/cgi-bin/bib_query?arXiv:1504.07527}{#1}}
+
 \newcommand{\ACTPollensing}{A.\ Engelen, B.\ D.\ Sherwin, N.\ Sehgal, ACTPol
 Collaboration, ``The Atacama Cosmology Telescope: Lensing of CMB Temperature
 and Polarization Derived from Cosmic Infrared Background Cross-Correlation",
@@ -659,6 +674,7 @@ asteroid 72-Feronia, submitted to Harvard small planet catalog. (1998).}
 \newcommand{\preprints}[1]{
 \reshead{Submitted Publications}
 \begin{enumerate}
+\item \IMmethodshttp{#1}
 \item \ACTPollensinghttp{#1}
 \item \ACTlensxoptlenshttp{#1}
 \end{enumerate}
@@ -727,6 +743,7 @@ asteroid 72-Feronia, submitted to Harvard small planet catalog. (1998).}
 \newcommand{\broaderpublication}[1]{
 \reshead{Publications}
 \begin{enumerate}
+\item \IMmethodshttp{#1}
 \item \ACTPollensinghttp{#1}
 \item \EEtoTTreionhttp{#1}
 \item \ACTPolEEhttp{#1}
@@ -816,6 +833,7 @@ asteroid 72-Feronia, submitted to Harvard small planet catalog. (1998).}
 \newcommand{\allpublications}[1]{
 \reshead{Publications}
 \begin{enumerate}
+\item \IMmethodshttp{#1}
 \item \ACTPollensinghttp{#1}
 \item \EEtoTTreionhttp{#1}
 \item \ACTPolEEhttp{#1}

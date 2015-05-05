@@ -1,3 +1,5 @@
+2015arXiv150407527S Interpreting the unresolved intensity of cosmologically redshifted line radiation
+2014ApJ...793..102S Erasing the Variable: Empirical Foreground Discovery for Global 21 cm Spectrum Experiments
 2014MNRAS.439.1556M The Atacama Cosmology Telescope: dusty star-forming galaxies and active galactic nuclei in the Southern survey
 2013JCAP...10..060S The Atacama Cosmology Telescope: cosmological parameters from three seasons of data
 2013MNRAS.434L..46S Determination of z ~ 0.8 neutral hydrogen fluctuations using the 21 cm intensity mapping autocorrelation
@@ -7,12 +9,10 @@
 2013ApJ...762...10D The Atacama Cosmology Telescope: Data Characterization and Mapmaking
 2012PhRvL.109d1101H Evidence of Galaxy Cluster Motions with the Kinematic Sunyaev-Zel'dovich Effect
 2012ApJ...744...40H Correlations in the (Sub)millimeter Background from ACT x BLAST
-2011PhRvL.107b1302S Evidence for Dark Energy from the Cosmic Microwave Background Alone Using the Atacama Cosmology Telescope Lensing Measurements
 2011ApJ...735L..27A The Steppenwolf: A Proposal for a Habitable Planet in Interstellar Space
 2011ApJS..194...41S Overview of the Atacama Cosmology Telescope: Receiver, Instrumentation, and Telescope Systems
 2010MNRAS.408.1945M The HeI 584 A forest as a diagnostic of helium reionization
 2010ApJ...719..763V Extragalactic Millimeter-wave Sources in South Pole Telescope Survey Data: Source Counts, Catalog, and Statistics for an 87 Square-degree Field
-2010ApJ...718..632H Angular Power Spectra of the Millimeter-wavelength Background Light from Dusty Star-forming Galaxies with the South Pole Telescope
 2010ApJ...718..513C A Method for Individual Source Brightness Estimation in Single- and Multi-band Data
 2009PhRvD..80f3010M Redshifted intergalactic 3He+ 8.7 GHz hyperfine absorption
 2008PhRvD..77h3008S Primordial helium recombination III: Thomson scattering, isotope shifts, and cumulative results
