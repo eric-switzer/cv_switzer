@@ -1,4 +1,4 @@
-\newcommand{\lastupdated}{May 5, 2015}
+\newcommand{\lastupdated}{Sept 16, 2015}
 
 \definecolor{light-gray}{gray}{0.60}
 \definecolor{dark-gray}{gray}{0.30}
@@ -103,14 +103,24 @@ Sep. 2004 -- May 2005 & Introductory General Physics, Labs (Teaching Assistantsh
 %------------------------------------------------------------------------------
 %publication definitions
 %------------------------------------------------------------------------------
-\newcommand{\IMmethods}{{\bf E.\ R.\ Switzer}, T.-C.\ Chang, K.\ W.\ Masui, U.-L.\ Pen, T.\ C.\ Voytek, ``Interpreting the unresolved intensity of cosmologically redshifted line radiation", astro-ph/1504.07527 (2015).}
+\newcommand{\VPMsyst}{N.\ J.\ Miller, D.\ T.\ Chuss, T.\ A.\ Marriage, E.\ J.\
+Wollack, J.\ W.\ Appel, C.\ L.\ Bennett, J.\ Eimer, T.\ Essinger-Hileman, D.\
+J.\ Fixsen, K.\ Harrington, S.\ H.\ Moseley, K.\ Rostem, {\bf E.\ R.\ Switzer},
+D.\ J.\ Watts, ``Recovery of Large Angular Scale CMB Polarization for
+Instruments Employing Variable-delay Polarization Modulators", arXiv:1509.04628
+(2015).}
+\newcommand{\VPMsysthttp}[1]{\linkarticle{\VPMsyst}{http://adsabs.harvard.edu/abs/2015arXiv150904628M}{#1}}
+
+\newcommand{\IMmethods}{{\bf E.\ R.\ Switzer}, T.-C.\ Chang, K.\ W.\ Masui,
+U.-L.\ Pen, T.\ C.\ Voytek, ``Interpreting the unresolved intensity of
+cosmologically redshifted line radiation", arXiv:1504.07527 (2015).}
 \newcommand{\IMmethodshttp}[1]{\linkarticle{\IMmethods}{http://adsabs.harvard.edu/cgi-bin/bib_query?arXiv:1504.07527}{#1}}
 
 \newcommand{\ACTPollensing}{A.\ Engelen, B.\ D.\ Sherwin, N.\ Sehgal, ACTPol
 Collaboration, ``The Atacama Cosmology Telescope: Lensing of CMB Temperature
-and Polarization Derived from Cosmic Infrared Background Cross-Correlation",
-astro-ph/1412.0626 (2014).}
-\newcommand{\ACTPollensinghttp}[1]{\linkarticle{\ACTPollensing}{http://adsabs.harvard.edu/abs/2014arXiv1412.0626V}{#1}}
+and Polarization Derived from Cosmic Infrared Background Cross-correlation",
+{\em ApJ}~{\bf 808}(1) (2015).}
+\newcommand{\ACTPollensinghttp}[1]{\linkarticle{\ACTPollensing}{http://adsabs.harvard.edu/abs/2015ApJ...808....7V}{#1}}
 
 \newcommand{\PIPERSPIE}{J.\ Lazear, P.\ A.\ R.\ Ade, D.\ Benford, C.\ L.\
 Bennett, D.\ T.\ Chuss, J.\ L.\ Dotson, J.\ R.\ Eimer, D.\ J.\ Fixsen, M.\
@@ -676,14 +686,15 @@ asteroid 72-Feronia, submitted to Harvard small planet catalog. (1998).}
 \newcommand{\preprints}[1]{
 \reshead{Submitted Publications}
 \begin{enumerate}
+\item \VPMsysthttp{#1}
 \item \IMmethodshttp{#1}
-\item \ACTPollensinghttp{#1}
 \end{enumerate}
 }
 
 \newcommand{\refereed}[1]{
 \reshead{Refereed Publications}
 \begin{enumerate}
+\item \ACTPollensinghttp{#1}
 \item \ACTlensxoptlenshttp{#1}
 \item \GlobalFGhttp{#1}
 \item \ACTSZRadiohttp{#1}
@@ -745,6 +756,7 @@ asteroid 72-Feronia, submitted to Harvard small planet catalog. (1998).}
 \newcommand{\broaderpublication}[1]{
 \reshead{Publications}
 \begin{enumerate}
+\item \VPMsysthttp{#1}
 \item \IMmethodshttp{#1}
 \item \ACTPollensinghttp{#1}
 \item \EEtoTTreionhttp{#1}
@@ -835,6 +847,7 @@ asteroid 72-Feronia, submitted to Harvard small planet catalog. (1998).}
 \newcommand{\allpublications}[1]{
 \reshead{Publications}
 \begin{enumerate}
+\item \VPMsysthttp{#1}
 \item \IMmethodshttp{#1}
 \item \ACTPollensinghttp{#1}
 \item \EEtoTTreionhttp{#1}
