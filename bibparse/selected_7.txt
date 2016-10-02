@@ -1,4 +1,4 @@
-2015arXiv150407527S Interpreting the unresolved intensity of cosmologically redshifted line radiation
+2015ApJ...815...51S Interpreting the unresolved intensity of cosmologically redshifted line radiation
 2014ApJ...793..102S Erasing the Variable: Empirical Foreground Discovery for Global 21 cm Spectrum Experiments
 2013MNRAS.434L..46S Determination of z ~ 0.8 neutral hydrogen fluctuations using the 21 cm intensity mapping autocorrelation
 2013ApJ...763L..20M Measurement of 21 cm Brightness Fluctuations at z ~ 0.8 in Cross-correlation
