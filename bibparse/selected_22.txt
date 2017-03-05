@@ -1,4 +1,6 @@
-2015arXiv150407527S Interpreting the unresolved intensity of cosmologically redshifted line radiation
+2016arXiv160405289S Robust Likelihoods for Inflationary Gravitational Waves from Maps of Cosmic Microwave Background Polarization
+2015arXiv151005453W Erasing the Milky Way: new cleaning technique applied to GBT intensity mapping data
+2015ApJ...815...51S Interpreting the unresolved intensity of cosmologically redshifted line radiation
 2014ApJ...793..102S Erasing the Variable: Empirical Foreground Discovery for Global 21 cm Spectrum Experiments
 2014MNRAS.439.1556M The Atacama Cosmology Telescope: dusty star-forming galaxies and active galactic nuclei in the Southern survey
 2013JCAP...10..060S The Atacama Cosmology Telescope: cosmological parameters from three seasons of data
