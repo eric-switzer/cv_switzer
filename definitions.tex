@@ -1,4 +1,4 @@
-\newcommand{\lastupdated}{April 30, 2017}
+\newcommand{\lastupdated}{June 27, 2017}
 
 \definecolor{light-gray}{gray}{0.60}
 \definecolor{dark-gray}{gray}{0.30}
@@ -141,6 +141,9 @@ Dec. 2013 & NASA Goddard Orientation \\
 %------------------------------------------------------------------------------
 %publication definitions
 %------------------------------------------------------------------------------
+\newcommand{\CMBSIVtech}{CMB-S4 Technology Contributors, ``CMB-S4 Technology Book, First Edition", 1706.02464 (2017).}
+\newcommand{\CMBSIVtechhttp}[1]{\linkarticle{\CMBSIVtech}{https://arxiv.org/abs/1706.02464}{#1}}
+
 \newcommand{\DARErev}{J.\ O.\ Burns, DARE collaboration, ``A Space-Based Observational Strategy for Characterizing the First Stars and Galaxies Using the Redshifted 21-cm Global Spectrum", 1704.02651 (2017).}
 \newcommand{\DARErevhttp}[1]{\linkarticle{\DARErev}{https://arxiv.org/abs/1704.02651}{#1}}
 
@@ -150,7 +153,7 @@ evolution of stars and cold gas with CMB spectral surveys", {\em ApJ}~{\bf 838}:
 
 \newcommand{\ACTPolStwo}{T.\ Louis, M.\ Hasselfield, M.\ Lungu, L.\ Maurin,
 ACTPol collaboration, ``The Atacama Cosmology Telescope: Two-Season ACTPol
-Spectra and Parameters", 1610.02360 (2016).}
+Spectra and Parameters", {\em JCAP}~{\bf 6}:31, (2017).}
 \newcommand{\ACTPolStwohttp}[1]{\linkarticle{\ACTPolStwo}{http://adsabs.harvard.edu/abs/2016arXiv161002360L}{#1}}
 
 \newcommand{\PIPERSPIEB}{N.\ Gandilo, PIPER Collaboration, ``The Primordial
@@ -766,7 +769,6 @@ asteroid 72-Feronia, submitted to Harvard small planet catalog. (1998).}
 \newcommand{\preprints}[1]{
 \reshead{Submitted Publications}
 \begin{enumerate}
-\item \ACTPolStwohttp{#1}
 \item \DARErevhttp{#1}
 \end{enumerate}
 }
@@ -774,6 +776,7 @@ asteroid 72-Feronia, submitted to Harvard small planet catalog. (1998).}
 \newcommand{\refereed}[1]{
 \reshead{Refereed Publications}
 \begin{enumerate}
+\item \ACTPolStwohttp{#1}
 \item \PIXIEIMhttp{#1}
 \item \GBTICAhttp{#1}
 \item \CMBlikehttp{#1}
@@ -841,6 +844,7 @@ asteroid 72-Feronia, submitted to Harvard small planet catalog. (1998).}
 \newcommand{\reports}[1]{
 \reshead{Proceedings, Reports}
 \begin{enumerate}
+\item \CMBSIVtechhttp{#1}
 \item \PIPERSPIEBhttp{#1}
 \item \PIPERSPIEAhttp{#1}
 \item \SCMAVprochttp{#1}
