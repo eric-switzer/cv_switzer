@@ -1,4 +1,4 @@
-\newcommand{\lastupdated}{Aug 22, 2017}
+\newcommand{\lastupdated}{Sept 27, 2017}
 
 \definecolor{light-gray}{gray}{0.60}
 \definecolor{dark-gray}{gray}{0.30}
@@ -141,6 +141,11 @@ Dec. 2013 & NASA Goddard Orientation \\
 %------------------------------------------------------------------------------
 %publication definitions
 %------------------------------------------------------------------------------
+\newcommand{\IMstatus}{E.\ D.\ Kovetz, M.\ P.\ Viero, A.\ Lidz, L.\ Newburgh,
+M.\ Rahman, {\bf E.\ R.\ Switzer}, Marc Kamionkowski, et al., ``Line-Intensity
+Mapping: 2017 Status Report", 1709.09066 (2017).}
+\newcommand{\IMstatushttp}[1]{\linkarticle{\IMstatus}{https://arxiv.org/abs/1709.09066}{#1}}
+
 \newcommand{\CMBSIVtech}{CMB-S4 Technology Contributors, ``CMB-S4 Technology Book, First Edition", 1706.02464 (2017).}
 \newcommand{\CMBSIVtechhttp}[1]{\linkarticle{\CMBSIVtech}{https://arxiv.org/abs/1706.02464}{#1}}
 
@@ -850,6 +855,7 @@ asteroid 72-Feronia, submitted to Harvard small planet catalog. (1998).}
 \newcommand{\reports}[1]{
 \reshead{Proceedings, Reports}
 \begin{enumerate}
+\item \IMstatushttp{#1}
 \item \CMBSIVtechhttp{#1}
 \item \PIPERSPIEBhttp{#1}
 \item \PIPERSPIEAhttp{#1}
