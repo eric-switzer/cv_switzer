@@ -1,4 +1,4 @@
-\newcommand{\lastupdated}{Feb 12, 2018}
+\newcommand{\lastupdated}{Mar 1, 2018}
 
 \definecolor{light-gray}{gray}{0.60}
 \definecolor{dark-gray}{gray}{0.30}
@@ -143,11 +143,13 @@ Dec. 2013 & NASA Goddard Orientation \\
 %------------------------------------------------------------------------------
 %publication definitions
 %------------------------------------------------------------------------------
+\newcommand{\ADRSATproc}{J.\ Tuttle, E.\ Canavan, H.\ DeLee, M.\ DiPirro, A.\ Jahromi, B.\ James, M.\ Kimball, P,\ Shirron, D.\ Sullivan, {\bf E.\ Switzer}, ``Development of a space-flight ADR providing continuous cooling at 50 mK with heat rejection at 10 K", Proceedings of Materials Science and Engineering, Volume 278, Issue 1, pp. 012009 (2017).}
+\newcommand{\ADRSATprochttp}[1]{\linkarticle{\ADRSATproc}{http://adsabs.harvard.edu/abs/2017MS&E..278a2009T}{#1}}
+
 \newcommand{\DAREmethod}{K.\ Tauscher, D.\ Rapetti, J.\ O.\ Burns, {\bf E.\
 R.\ Switzer}, ``Global 21-cm signal extraction from foreground and instrumental
-effects I: Pattern recognition framework for separation using training sets",
-1711.03173 (2017).}
-\newcommand{\DAREmethodhttp}[1]{\linkarticle{\DAREmethod}{http://adsabs.harvard.edu/abs/2017arXiv171103173T}{#1}}
+effects I: Pattern recognition framework for separation using training sets", {\em ApJ}~{\bf 853}(2) (2018).}
+\newcommand{\DAREmethodhttp}[1]{\linkarticle{\DAREmethod}{http://adsabs.harvard.edu/abs/2018ApJ...853..187T}{#1}}
 
 \newcommand{\Parkescross}{C.\ J.\ Anderson, N.\ J.\ Luciw, Y.-C.\ Li, C.\ Y.\
 Yuo, J.\ Yadav, Parkes Collaboration, ``Lack of clustering in low-redshift
@@ -796,7 +798,6 @@ asteroid 72-Feronia, submitted to Harvard small planet catalog. (1998).}
 \newcommand{\preprints}[1]{
 \reshead{Submitted Publications}
 \begin{enumerate}
-\item \DAREmethodhttp{#1}
 \item \Parkescrosshttp{#1}
 \item \IMstatushttp{#1}
 \end{enumerate}
@@ -805,6 +806,7 @@ asteroid 72-Feronia, submitted to Harvard small planet catalog. (1998).}
 \newcommand{\refereed}[1]{
 \reshead{Refereed Publications}
 \begin{enumerate}
+\item \DAREmethodhttp{#1}
 \item \DARErevhttp{#1}
 \item \ACTPolStwohttp{#1}
 \item \PIXIEIMhttp{#1}
@@ -874,6 +876,7 @@ asteroid 72-Feronia, submitted to Harvard small planet catalog. (1998).}
 \newcommand{\reports}[1]{
 \reshead{Proceedings, Reports}
 \begin{enumerate}
+\item \ADRSATprochttp{#1}
 \item \CMBSIVtechhttp{#1}
 \item \PIPERSPIEBhttp{#1}
 \item \PIPERSPIEAhttp{#1}
