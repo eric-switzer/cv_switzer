@@ -1,7 +1,7 @@
+2016PhRvD..94f3526S Robust likelihoods for inflationary gravitational waves from maps of cosmic microwave background polarization
+2017ApJ...838...82S Tracing the Cosmological Evolution of Stars and Cold Gas with CMB Spectral Surveys
 2015ApJ...815...51S Interpreting the unresolved intensity of cosmologically redshifted line radiation
-2014ApJ...793..102S Erasing the Variable: Empirical Foreground Discovery for Global 21 cm Spectrum Experiments
 2013MNRAS.434L..46S Determination of z ~ 0.8 neutral hydrogen fluctuations using the 21 cm intensity mapping autocorrelation
-2013ApJ...763L..20M Measurement of 21 cm Brightness Fluctuations at z ~ 0.8 in Cross-correlation
 2011ApJS..194...41S Overview of the Atacama Cosmology Telescope: Receiver, Instrumentation, and Telescope Systems
 2010ApJ...718..513C A Method for Individual Source Brightness Estimation in Single- and Multi-band Data
 2008PhRvD..77h3006S Primordial helium recombination I: Feedback, line transfer, and continuum opacity

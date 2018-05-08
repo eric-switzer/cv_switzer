@@ -1,17 +1,16 @@
-2016arXiv160405289S Robust Likelihoods for Inflationary Gravitational Waves from Maps of Cosmic Microwave Background Polarization
-2015arXiv151005453W Erasing the Milky Way: new cleaning technique applied to GBT intensity mapping data
+2018MNRAS.tmp..340A Low-amplitude clustering in low-redshift 21-cm intensity maps cross-correlated with 2dF galaxy densities
+2017arXiv170909066K Line-Intensity Mapping: 2017 Status Report
+2017MNRAS.464.4938W Erasing the Milky Way: new cleaning technique applied to GBT intensity mapping data
+2017ApJ...838...82S Tracing the Cosmological Evolution of Stars and Cold Gas with CMB Spectral Surveys
+2016PhRvD..94f3526S Robust Likelihoods for Inflationary Gravitational Waves from Maps of Cosmic Microwave Background Polarization
 2015ApJ...815...51S Interpreting the unresolved intensity of cosmologically redshifted line radiation
 2014ApJ...793..102S Erasing the Variable: Empirical Foreground Discovery for Global 21 cm Spectrum Experiments
 2014MNRAS.439.1556M The Atacama Cosmology Telescope: dusty star-forming galaxies and active galactic nuclei in the Southern survey
 2013JCAP...10..060S The Atacama Cosmology Telescope: cosmological parameters from three seasons of data
 2013MNRAS.434L..46S Determination of z ~ 0.8 neutral hydrogen fluctuations using the 21 cm intensity mapping autocorrelation
-2013MNRAS.430.3054C Sunyaev-Zel'dovich signal processing and temperature-velocity moment method for individual clusters
-2013ApJ...764..137F Constraints on Perturbations to the Recombination History from Measurements of the Cosmic Microwave Background Damping Tail
 2013ApJ...763L..20M Measurement of 21 cm Brightness Fluctuations at z ~ 0.8 in Cross-correlation
 2013ApJ...762...10D The Atacama Cosmology Telescope: Data Characterization and Mapmaking
-2012PhRvL.109d1101H Evidence of Galaxy Cluster Motions with the Kinematic Sunyaev-Zel'dovich Effect
 2012ApJ...744...40H Correlations in the (Sub)millimeter Background from ACT x BLAST
-2011ApJ...735L..27A The Steppenwolf: A Proposal for a Habitable Planet in Interstellar Space
 2011ApJS..194...41S Overview of the Atacama Cosmology Telescope: Receiver, Instrumentation, and Telescope Systems
 2010MNRAS.408.1945M The HeI 584 A forest as a diagnostic of helium reionization
 2010ApJ...719..763V Extragalactic Millimeter-wave Sources in South Pole Telescope Survey Data: Source Counts, Catalog, and Statistics for an 87 Square-degree Field
