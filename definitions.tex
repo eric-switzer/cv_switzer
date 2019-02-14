@@ -1,4 +1,4 @@
-\newcommand{\lastupdated}{Nov. 15, 2018}
+\newcommand{\lastupdated}{Feb. 13, 2019}
 
 \definecolor{light-gray}{gray}{0.60}
 \definecolor{dark-gray}{gray}{0.30}
@@ -189,9 +189,15 @@ Dec. 2013 & NASA Goddard Orientation \\
 %------------------------------------------------------------------------------
 %publication definitions
 %------------------------------------------------------------------------------
+% Whitepapers
+% Endorsed CMB S4, PICO
+% Author of IM
+% Author/endorser of spectral distortion
+
 \newcommand{\IMcontinua}{{\bf E.\ R.\ Switzer}, C.\ J.\ Anderson, A.\ Pullen,
 S.\ Yang, ``Intensity mapping in the presence of foregrounds and correlated
-continuum emission", {\em Submitted ApJ} (2018).}
+continuum emission", {\em ApJ}~{\bf 872}(1) (2019).}
+\newcommand{\IMcontinuahttp}[1]{\linkarticle{\IMcontinua}{https://doi.org/10.3847/1538-4357/aaf9ab}{#1}}
 
 % update this to final
 \newcommand{\ACTpolptsrc}{R.\ Datta, ACTPol Collaboration, ``"The Atacama
@@ -866,7 +872,6 @@ asteroid 72-Feronia, submitted to Harvard small planet catalog. (1998).}
 \newcommand{\preprints}[1]{
 \reshead{Submitted Publications}
 \begin{enumerate}
-\item \IMcontinua
 \item \IMstatushttp{#1}
 \end{enumerate}
 }
@@ -874,6 +879,7 @@ asteroid 72-Feronia, submitted to Harvard small planet catalog. (1998).}
 \newcommand{\refereed}[1]{
 \reshead{Refereed Publications}
 \begin{enumerate}
+\item \IMcontinuahttp{#1}
 \item \ACTpolptsrchttp{#1}
 \item \Parkescrosshttp{#1}
 \item \DAREmethodhttp{#1}
