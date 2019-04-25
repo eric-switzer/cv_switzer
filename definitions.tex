@@ -1,4 +1,4 @@
-\newcommand{\lastupdated}{March 15, 2019}
+\newcommand{\lastupdated}{April 25, 2019}
 
 \definecolor{light-gray}{gray}{0.60}
 \definecolor{dark-gray}{gray}{0.30}
@@ -119,12 +119,13 @@ Sep. 2004 -- May 2005 & Introductory General Physics, Labs (Teaching Assistantsh
 \newcommand{\advising}[1]{
 ~\\ \reshead{Advising}\\~\\
 \begin{tabular}{l p{12cm}} %\multicolumn{2}{l}
-Spring 2018- & JHU postdoc, Intensity Mapping: Chris Anderson \\
-Fall 2015- & JHU postdoc, PIPER software: Natalie Gandilo \\
-Fall 2016- & NPP postdoc, PIPER hardware: Rahul Datta \\
-Fall 2016- & NSTR fellow, FTS technology: Taylor Baildon (UMich) \\
-2015--2018 & UMD graduate student (Co-advisor, PIPER): Sam Pawlyk \\
-2013--2015 & JHU graduate student (Co-advisor, PIPER): Justin Lazear \\
+Spring 2019- & UMD Graduate Student, EXCLAIM project (Co-advisors: A. Bolatto, E. Barrentine): Carrie Volpert \\
+Spring 2018- & JHU Postdoc, Intensity Mapping: Chris Anderson \\
+Fall 2016- & NSTR fellow, FTS technology (Primary advisor: J. McMahon): Taylor Baildon (UMich) \\
+2015--2018 & JHU Postdoc, PIPER software (Co-advisor, PIPER): Natalie Gandilo \\
+2016--2018 & NPP Postdoc, PIPER hardware: Rahul Datta \\
+2015--2018 & UMD Graduate student (Co-advisor, PIPER): Sam Pawlyk \\
+2013--2015 & JHU Graduate student (Co-advisor, PIPER): Justin Lazear \\
 Fall 2014 & OSSI, Undergraduate (PIPER): Mitesh Amin \\
 Summer 2014 & USNA-GSFC Exchange, Undergraduate (analysis): Tyler Dickenson \\
 Summer 2013 & CITA Undergraduate: Valentin Goblot \\
@@ -193,6 +194,12 @@ Dec. 2013 & NASA Goddard Orientation \\
 % Endorsed CMB S4, PICO
 % Author of IM
 % Author/endorser of spectral distortion
+\newcommand{\PIPERSPIES}{S.\ Pawlyk, PIPER Collaboration, ``The primordial inflation polarization explorer (PIPER): current status and performance of the first flight", {\em Proc. SPIE}~{\bf 10708} (2018).}
+\newcommand{\PIPERSPIEShttp}[1]{\linkarticle{\PIPERSPIES}{http://adsabs.harvard.edu/abs/2018SPIE10708E..06P}{#1}}
+
+
+\newcommand{\IMPlanck}{S.\ Yang, A.\ R.\ Pullen, {\bf E.\ R.\ Switzer}, ``Evidence for CII diffuse line emission at redshift $z\sim2.6$", {\em submitted MNRASL} (2019).}
+\newcommand{\IMPlanckhttp}[1]{\linkarticle{\IMPlanck}{http://adsabs.harvard.edu/abs/2019arXiv190401180Y}{#1}}
 
 \newcommand{\IMcontinua}{{\bf E.\ R.\ Switzer}, C.\ J.\ Anderson, A.\ Pullen,
 S.\ Yang, ``Intensity mapping in the presence of foregrounds and correlated
@@ -590,6 +597,8 @@ Chem.\ Soc.\ }~{\bf 120} 3530-3531 (1998).}
 %------------------------------------------------------------------------------
 %reports, proceedings and talks
 %------------------------------------------------------------------------------
+\newcommand{\DecadalIM}{E.\ D.\ Kovetz, P.\ C.\ Breysse, A.\ Lidz, J.\ Bock, C.\ M.\ Bradford, T.-C.\ Chang, S.\ Foreman, H.\ Padmanabhan, A.\ Pullen, D.\ Riechers, M.\ B.\ Silva, {\bf E.\ R.\ Switzer}, ``Astrophysics and Cosmology with Line-Intensity Mapping," {\em Contribution to the 2020 Decadal Survey}, March 2019.}
+
 \newcommand{\CCAIMEXCLAIM}{``The Experiment for Cryogenic Large-Aperture Intensity Mapping (EXCLAIM)," {\em Intensity Mapping Workshop}, Center for Computational Astrophysics, Simons Institute, February 2019.} % Feb 21
 
 \newcommand{\IHPIM}{``Challenges in Analysis of Intensity Mapping Data," {\em Analytics, Inference, and Computation in Cosmology}, Institut Henri Poincar\'e, Paris, October 2018.} % Oct 25
@@ -874,6 +883,7 @@ asteroid 72-Feronia, submitted to Harvard small planet catalog. (1998).}
 \newcommand{\preprints}[1]{
 \reshead{Submitted Publications}
 \begin{enumerate}
+\item \IMPlanckhttp{#1}
 \item \IMstatushttp{#1}
 \end{enumerate}
 }
@@ -954,6 +964,8 @@ asteroid 72-Feronia, submitted to Harvard small planet catalog. (1998).}
 \newcommand{\reports}[1]{
 \reshead{Proceedings, Reports}
 \begin{enumerate}
+\item \PIPERSPIEShttp{#1}
+\item \DecadalIM{#1}
 \item \CataldoIAC{#1}
 \item \ADRSATprochttp{#1}
 \item \CMBSIVtechhttp{#1}
