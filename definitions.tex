@@ -1,4 +1,4 @@
-\newcommand{\lastupdated}{June 14, 2019}
+\newcommand{\lastupdated}{July 21, 2019}
 
 \definecolor{light-gray}{gray}{0.60}
 \definecolor{dark-gray}{gray}{0.30}
@@ -195,6 +195,11 @@ Dec. 2013 & NASA Goddard Orientation \\
 %------------------------------------------------------------------------------
 %Whitepapers Endorsed CMB S4, PICO Author of IM Author/endorser of spectral
 %distortion
+\newcommand{\SPTPolptsrc}{N.\ Gupta, C.\ L.\ Reichardt, SPTPol collaboration,
+"Fractional Polarisation of Extragalactic Sources in the 500-square-degree
+SPTpol Survey," Submitted MNRAS (2019).}
+\newcommand{\SPTPolptsrchttp}[1]{\linkarticle{\SPTPolptsrc}{http://adsabs.harvard.edu/abs/2019arXiv190702156G}{#1}}
+
 \newcommand{\IACuSpec}{G.\ Cataldo, E.\ M.\ Barrentine, B.\ T.\ Bulcha, N.\
 Ehsan, L.\ A.\ Hess, O.\ Noroozian, T.\ R.\ Stevenson, E.\ J.\ Wollack, S.\ H.\
 Moseley, {\bf E.\ R.\ Switzer}, "Second-generation Micro-Spec: a compact
@@ -618,6 +623,32 @@ Chem.\ Soc.\ }~{\bf 120} 3530-3531 (1998).}
 %------------------------------------------------------------------------------
 %reports, proceedings and talks
 %------------------------------------------------------------------------------
+\newcommand{\higateway}{D.\ Rapetti, K.\ Tauscher, J.\ O.\ Burns, E.\ Switzer, J.\ Mirocha, S.\ Furlanetto, R.\ Monsalve, "Hydrogen Cosmology from the Deep Space Gateway: Data Analysis Pipeline for Low-Frequency Radio Telescopes" Deep Space Gateway Concept Science Workshop, proceeedings (2018).}
+\newcommand{\higatewayhttp}[1]{\linkarticle{\higateway}{http://adsabs.harvard.edu/abs/2018LPICo2063.3087R}{#1}}
+
+\newcommand{\lambdaprimer}{G.\ E.\ Addison, E.\ R.\ Switzer, M.\ R.\ Greason,
+T.\ B.\ Griswold, T.\ Jaffe, N.\ Miller, N.\ P.\ Odegard, U.\ Prasad, J.\ L.\
+Weiland, "Legacy Archive for Microwave Background Data Analysis (LAMBDA): An
+Overview" (2019).}
+\newcommand{\lambdaprimerhttp}[1]{\linkarticle{\lambdaprimer}{http://adsabs.harvard.edu/abs/2019arXiv190508667A}{#1}}
+
+% 1 Astro2020 Science White Paper: Insights Into the Epoch of Reionization with the Highly-Redshifted 21-cm Line, Furlanetto, 2019BAAS...51c.143F, 2019arXiv190306204F
+% 2 Fundamental Cosmology in the Dark Ages with 21-cm Line Fluctuations 2019BAAS...51c.144F Furlanetto
+% 3 Astro2020 Science White Paper: Synergies Between Galaxy Surveys and Reionization Measurements Furlanetto, 2019arXiv190306197F, 2019BAAS...51c.142F
+% 4 Spectral Distortions of the CMB as a Probe of Inflation, Recombination, Structure Formation and Particle Physics 2019BAAS...51c.184C Chluba
+% 5 Messengers from the Early Universe: Cosmic Neutrinos and Other Light Relics 2019BAAS...51c.159G Green
+% 6 Astrophysics and Cosmology with Line-Intensity Mapping, Kovetz 2019BAAS...51c.101K
+% 7 Astro2020 Science White Paper: First Stars and Black Holes at Cosmic Dawn with Redshifted 21-cm Observations Mirocha 2019arXiv190306218M
+% 8 Primordial Non-Gaussianity Meerburg 2019BAAS...51c.107M
+% 9 Inflation and Dark Energy from spectroscopy at z > 2 Ferraro 2019BAAS...51c..72F
+% 10 Cosmic Dawn and Reionization: Astrophysics in the Final Frontier 2019BAAS...51c..48C Cooray
+% 11 Science from an Ultra-Deep, High-Resolution Millimeter-Wave Survey Shegal 2019BAAS...51c..43S
+% 12 CMB-HD: An Ultra-Deep, High-Resolution Millimeter-Wave Survey Over Half the Sky Sehgal 2019arXiv190610134S
+% 13 Populations behind the source-subtracted cosmic infrared background anisotropies Kashlinsky 2019BAAS...51c..37K
+% 14 Rich Barry's Whitepaper
+% 15 LiteBIRD whitepaper
+\newcommand{\Decadal}{Co-signer or contributor to 15 Decadal White Papers (2019).}
+
 \newcommand{\DecadalIM}{E.\ D.\ Kovetz, P.\ C.\ Breysse, A.\ Lidz, J.\ Bock, C.\ M.\ Bradford, T.-C.\ Chang, S.\ Foreman, H.\ Padmanabhan, A.\ Pullen, D.\ Riechers, M.\ B.\ Silva, {\bf E.\ R.\ Switzer}, ``Astrophysics and Cosmology with Line-Intensity Mapping," {\em Contribution to the 2020 Decadal Survey}, March 2019.}
 
 \newcommand{\CITAEXCLAIM}{``EXCLAIM: a new balloon mission to map the cosmological history of galaxies," {\em Seminar}, Canadian Institute for Theoretical Astrophysics, University of Toronto, May 2019.} % May 9
@@ -906,6 +937,7 @@ asteroid 72-Feronia, submitted to Harvard small planet catalog. (1998).}
 \newcommand{\preprints}[1]{
 \reshead{Submitted Publications}
 \begin{enumerate}
+\item \SPTPolptsrchttp{#1}
 \item \PIPERRX
 \item \IMPlanckhttp{#1}
 \end{enumerate}
@@ -989,8 +1021,11 @@ asteroid 72-Feronia, submitted to Harvard small planet catalog. (1998).}
 \newcommand{\reports}[1]{
 \reshead{Proceedings, Reports}
 \begin{enumerate}
-\item \PIPERSPIEShttp{#1}
+\item \lambdaprimerhttp{#1}
+\item \Decadal
 \item \DecadalIM{#1}
+\item \higatewayhttp{#1}
+\item \PIPERSPIEShttp{#1}
 \item \CataldoIAC{#1}
 \item \IMstatushttp{#1}
 \item \ADRSATprochttp{#1}
