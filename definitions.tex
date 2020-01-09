@@ -1,4 +1,4 @@
-\newcommand{\lastupdated}{December 30, 2019}
+\newcommand{\lastupdated}{January 8, 2020}
 
 \definecolor{light-gray}{gray}{0.60}
 \definecolor{dark-gray}{gray}{0.30}
@@ -140,7 +140,6 @@ Summer 2013 & CITA Undergraduate: Valentin Goblot \\
 }
 
 % PIXIE IRAD
-% GBT 300 hr
 % check PIPER APRA
 \newcommand{\grants}[1]{
 ~\\ \reshead{Grants}\\~\\
@@ -163,15 +162,19 @@ Oct. 2016 (1 yr) Co-I & GSFC Internal R\&D (IRAD), {\em PIXIE Technology Test Be
 Jan. 2016 (2.5 yr) Co-I & NASA Astrophysics Data Analysis Program (ADAP), {\em Predicting the sky from 30 MHz to 800 GHz: the extended Global Sky Model} (PI: Adrian Liu) \\
 Oct. 2015 (5 yr) Co-I & NASA Astrophysics Research and Analysis Program (APRA) {\em Primordial Inflation Polarization Explorer (PIPER) -- Phase 2} (PI: Alan Kogut) \\
 Oct. 2015 (1 yr) Co-I & GSFC Internal R\&D (IRAD), {\em PIXIE Instrument Maturation} (PI: Alan Kogut) \\
-% 0.5 FTE, 2k
-Oct. 2015 (1 yr), PI & NASA Strategic Innovation Fund (SIF), {\em Mapping the history of the universe with unresolved cosmologically redshifted line radiation} \\
+% 0.5 FTE, 2k Led to Switzer 2017, EXCLAIM APRA, CO/CII in archival CMB ADAP.
+Oct. 2015 (1 yr), PI & NASA Strategic Innovation Fund (SIF), {\em Mapping the history of the universe with unresolved cosmologically redshifted line radiation}. \\
 % 500k/yr, 3yr
-Oct. 2015 (3 yr), Co-I & NASA Archives Review, {\em Legacy Archive for Microwave Background Data Analysis (LAMBDA)} (PI: Smale, HEASARC)\\
-% 68k
+Oct. 2015 (4 yr), Co-I & NASA Archives Review, {\em Legacy Archive for Microwave Background Data Analysis (LAMBDA)} (PI: Smale, HEASARC)\\
+% 68k, 0.6 FTE and 2k$
 Oct. 2014 (1 yr), PI & GSFC Internal R\&D (IRAD), {\em Architectures and Assessment of Next-Generation CMB Polarization Instruments} \\
-% 144k
+% 144k, 1.1 FTE and 23k$ Led to 2017 SAT, Tuttle et al. 2017, PIPER CADR flight software.
 Oct. 2014 (1 yr), PI & GSFC Internal R\&D (IRAD), {\em Achieving High Stability and Efficiency in the Next Generation of Adiabatic
  Demagnetization Refrigerators}. \\
+% GBT/12A-418; lead author but not PI, 300 hr total? Led to GBT 2013 papers.
+% https://science.nrao.edu/science/science-program/programs2011a
+% http://library.nrao.edu/proposals/catalog/6153
+July 2011 (1 yr) & GBT Large program (100 hr/semester) {\em Baryon Acoustic Oscillations with 21cm Intensity Mapping}. \\
 Sept. 2011 (2 yr) & CITA Senior Research Associate, University of Toronto (5 year) \\
 Oct. 2009 (3 yr) & KICP Postdoctoral Fellow, University of Chicago
 \end{tabular} \\~\\~\\
@@ -202,10 +205,12 @@ Dec. 2013 & NASA Goddard Orientation \\
 \newcommand{\LitebirdLTD}{LiteBIRD collaboration, Hajime Sugai lead ``Updated
 design of the CMB polarization experiment satellite LiteBIRD" Submitted JLTD
 (2019).}
+\newcommand{\LitebirdLTDhttp}[1]{\linkarticle{\LitebirdLTD}{https://arxiv.org/abs/2001.01724}{#1}}
 
 \newcommand{\EXCLAIMoverview}{EXCLAIM Collaboration, {\bf E.\ R.\ Switzer}
 lead, ``The Experiment for Cryogenic Large-aperture Intensity Mapping
 (EXCLAIM)," Submitted JLTD (2019).}
+\newcommand{\EXCLAIMoverviewhttp}[1]{\linkarticle{\EXCLAIMoverview}{https://arxiv.org/abs/1912.07118}{#1}}
 
 \newcommand{\SPTPolptsrc}{N.\ Gupta, C.\ L.\ Reichardt, SPTPol collaboration,
 ``Fractional Polarisation of Extragalactic Sources in the 500-square-degree
@@ -957,14 +962,15 @@ asteroid 72-Feronia, submitted to Harvard small planet catalog. (1998).}
 \newcommand{\preprints}[1]{
 \reshead{Submitted Publications}
 \begin{enumerate}
-\item \LitebirdLTD
-\item \EXCLAIMoverview
+\item
 \end{enumerate}
 }
 
 \newcommand{\refereed}[1]{
 \reshead{Refereed Publications}
 \begin{enumerate}
+\item \LitebirdLTDhttp{#1}
+\item \EXCLAIMoverviewhttp{#1}
 \item \SPTPolptsrchttp{#1}
 \item \IMPlanckhttp{#1}
 \item \PIPERRX
