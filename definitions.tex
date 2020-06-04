@@ -1,4 +1,4 @@
-\newcommand{\lastupdated}{May 24, 2020}
+\newcommand{\lastupdated}{June 4, 2020}
 
 \definecolor{light-gray}{gray}{0.60}
 \definecolor{dark-gray}{gray}{0.30}
@@ -126,9 +126,11 @@ Sep. 2004 -- May 2005 & Introductory General Physics, Labs (Teaching Assistantsh
 \newcommand{\advising}[1]{
 ~\\ \reshead{Advising}\\~\\
 \begin{tabular}{l p{12cm}} %\multicolumn{2}{l}
-Spring 2020- & NASA intern: Lee Roger Chevres Fernandez, Konrad Shire \\
-2019-2020 & NASA/UMD intern (gap year): Jonas Mugge-Durum \\
-Summer 2019 & NASA interns: Alex Lamb, Henry Grant \\
+Summer 2020 & NASA interns (EXCLAIM): Ethan Bennett, Chace Cho, Joaquin Matticoli, Florian Roselli (G. Cataldo primary), Jared Termini (E. Barrentine, T. Essinger-Hileman primary) \\
+Spring 2020 & NASA interns (EXCLAIM): Lee Roger Chevres Fernandez, Gedalia Koehler, Konrad Shire, Akhil Singareddy \\
+2019-2020 & NASA/UMD intern (gap year, EXCLAIM): Jonas Mugge-Durum \\
+Fall 2019- & UW Madison Graduate Student, EXCLAIM (UMD Faculty Advisor: P. Timbie): Trevor Oxholm \\
+Summer 2019 & NASA interns (EXCLAIM): Alex Lamb, Henry Grant \\
 Spring 2019- & UMD Graduate Student, EXCLAIM (UMD Faculty Advisor: A. Bolatto): Carrie Volpert \\
 Spring 2018- & JHU Postdoc, Intensity Mapping: Chris Anderson \\
 Fall 2016- & NSTR fellow, FTS technology (Primary advisor: J. McMahon): Taylor Baildon (UMich) \\
@@ -654,8 +656,31 @@ Chem.\ Soc.\ }~{\bf 120} 3530-3531 (1998).}
 %------------------------------------------------------------------------------
 %Whitepapers Endorsed CMB S4, PICO Author of IM Author/endorser of spectral
 %distortion
-\newcommand{\PIPERAASReceiver}{``The Primordial Inflation Polarization ExploreR:
-Receiver design and performance," {\em AAS 236}, June 2020.}
+\newcommand{\PIPERAASDetector}{R. Datta for PIPER Collaboration, ``The
+Primordial Inflation Polarization ExploreR (PIPER): Preflight Characterization
+of the Detector Arrays," {\em AAS 236}, June 2020.}
+\newcommand{\PIPERAASDetectorhttp}[1]{\linkarticle{\PIPERAASDetector}{https://aas236-aas.ipostersessions.com/default.aspx?s=58-A6-76-14-24-F0-D6-B6-31-90-89-BF-24-D8-B0-D2}{#1}}
+
+\newcommand{\PIPERAASFlight}{T. Essinger-Hileman for PIPER Collaboration, ``The
+Primordial Inflation Polarization ExploreR (PIPER): 2019 Flight and Telescope
+Performance," {\em AAS 236}, June 2020.}
+\newcommand{\PIPERAASFlighthttp}[1]{\linkarticle{\PIPERAASFlight}{https://aas236-aas.ipostersessions.com/default.aspx?s=E5-6A-03-3B-A4-E4-50-90-82-F1-49-DE-26-42-7D-3A}{#1}}
+
+\newcommand{\PIPERAASMission}{A. Kogut for PIPER Collaboration, ``The
+Primordial Inflation Polarization ExploreR (PIPER): Science Goals," {\em AAS
+236}, June 2020.}
+\newcommand{\PIPERAASMissionhttp}[1]{\linkarticle{\PIPERAASMission}{https://aas236-aas.ipostersessions.com/default.aspx?s=FB-1C-A9-03-EE-ED-E0-77-81-D7-3E-B6-D6-C2-94-A1}{#1}}
+
+\newcommand{\PIPERAASReceiver}{E. Switzer for PIPER Collaboration, ``The
+Primordial Inflation Polarization ExploreR (PIPER): Receiver Design and
+Performance," {\em AAS 236}, June 2020.}
+\newcommand{\PIPERAASReceiverhttp}[1]{\linkarticle{\PIPERAASReceiver}{https://aas236-aas.ipostersessions.com/default.aspx?s=60-76-27-4A-07-81-31-C5-22-3D-D0-5F-BE-10-54-84}{#1}}
+
+\newcommand{\EXCLAIMAASMission}{T. Oxholm for EXCLAIM Collaboration, ``The
+Experiment for Cryogenic Large-Aperture Intensity Mapping," {\em AAS 236}, June
+2020.}
+\newcommand{\EXCLAIMAASMissionhttp}[1]{\linkarticle{\EXCLAIMAASMission}{https://aas236-aas.ipostersessions.com/default.aspx?s=E7-03-19-A9-03-04-B2-91-4A-8B-46-34-21-0A-E0-1F}{#1}}
+
 
 % also on J.\ Delabrouille, Voyage 2050 whitepaper
 % wrote IM section
@@ -1125,7 +1150,11 @@ asteroid 72-Feronia, submitted to Harvard small planet catalog. (1998).}
 \newcommand{\talks}[1]{
 \reshead{Talks, posters}
 \begin{enumerate}
-\item \PIPERAASReceiver
+\item \PIPERAASMissionhttp{#1}
+\item \PIPERAASFlighthttp{#1}
+\item \PIPERAASDetectorhttp{#1}
+\item \PIPERAASReceiverhttp{#1}
+\item \EXCLAIMAASMissionhttp{#1}
 \item \AspenIM
 \item \RRIPIXIE
 \item \RRIIMFG
@@ -1213,7 +1242,11 @@ asteroid 72-Feronia, submitted to Harvard small planet catalog. (1998).}
 \newcommand{\uninvitedtalks}[1]{
 \reshead{Contributed Talks, Posters}
 \begin{enumerate}
-\item \PIPERAASReceiver
+\item \PIPERAASMissionhttp{#1}
+\item \PIPERAASFlighthttp{#1}
+\item \PIPERAASDetectorhttp{#1}
+\item \PIPERAASReceiverhttp{#1}
+\item \EXCLAIMAASMissionhttp{#1}
 \item \AspenIM
 \item \BICEPlocal
 \item \PIPERAASStokesV
