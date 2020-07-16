@@ -1,4 +1,4 @@
-\newcommand{\lastupdated}{June 4, 2020}
+\newcommand{\lastupdated}{July 16, 2020}
 
 \definecolor{light-gray}{gray}{0.60}
 \definecolor{dark-gray}{gray}{0.30}
@@ -198,6 +198,7 @@ Oct. 2009 (3 yr) & KICP Postdoctoral Fellow, University of Chicago
 \newcommand{\training}[1]{
 ~\\ \reshead{Training}\\~\\
 \begin{tabular}{l p{12cm}}
+%TBD 2020 & Safety and Mission Assurance Step 1 (NASA) \\
 Nov. 2019 & History of NASA Missions (NASA GSFC) \\
 June 2019 & Requirements Development and Management (NASA APPEL) \\
 Aug. 2018 & Leadership and Management Skills for non-Managers \\
@@ -217,6 +218,12 @@ Dec. 2013 & NASA Goddard Orientation \\
 %------------------------------------------------------------------------------
 %publication definitions
 %------------------------------------------------------------------------------
+\newcommand{\ACTfourpower}{S.\ K.\ Choi, M.\ Hasselfield, S.\ P.\ Ho, B.\ Koopman, M.\ Lungu, ACT Collaboration, ``The Atacama Cosmology Telescope: A Measurement of the Cosmic Microwave Background Power Spectra at 98 and 150 GHz" {\em ApJ submitted} (Jul. 2020).}
+\newcommand{\ACTfourpowerhttp}[1]{\linkarticle{\ACTfourpower}{https://ui.adsabs.harvard.edu/abs/2020arXiv200707289C/abstract}{#1}}
+
+\newcommand{\ACTfoursummary}{S.\ Aiola, E.\ Calabrese, L.\ Maurin, S.\ Naess, B.\ L.\ Schmitt, ACT Collaboration, ``The Atacama Cosmology Telescope: DR4 Maps and Cosmological Parameters" {\em ApJ submitted} (Jul. 2020).}
+\newcommand{\ACTfoursummaryhttp}[1]{\linkarticle{\ACTfoursummary}{https://ui.adsabs.harvard.edu/abs/2020arXiv200707288A/abstract}{#1}}
+
 \newcommand{\SPTptsrcfinal}{W.\ Everett, SPT collaboration ``Millimeter-wave Point Sources from the 2500-square-degree SPT-SZ Survey: Catalog and Population Statistics" {\em ApJ submitted} (Mar. 2020).}
 \newcommand{\SPTptsrcfinalhttp}[1]{\linkarticle{\SPTptsrcfinal}{https://ui.adsabs.harvard.edu/abs/2020arXiv200303431E/abstract}{#1}}
 
@@ -1025,6 +1032,8 @@ asteroid 72-Feronia, submitted to Harvard small planet catalog. (1998).}
 \newcommand{\preprints}[1]{
 \reshead{Submitted Publications}
 \begin{enumerate}
+\item \ACTfoursummaryhttp{#1}
+\item \ACTfourpowerhttp{#1}
 \item \SPTptsrcfinalhttp{#1}
 \end{enumerate}
 }
