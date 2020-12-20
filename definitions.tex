@@ -1,4 +1,4 @@
-\newcommand{\lastupdated}{December 5, 2020}
+\newcommand{\lastupdated}{December 20, 2020}
 
 \definecolor{light-gray}{gray}{0.60}
 \definecolor{dark-gray}{gray}{0.30}
@@ -248,6 +248,22 @@ Dec. 2013 & NASA Goddard Orientation \\
 %------------------------------------------------------------------------------
 %publication definitions
 %------------------------------------------------------------------------------
+\newcommand{\EXCLAIMSPIEuspec}{M.\ Mirzaei, E.\ Barrentine, EXCLAIM
+Collaboration, ``$\mu$-spec spectrometers for the EXCLAIM instrument," {\em
+Proc. SPIE}~{\bf 114530M} (2020).}
+\newcommand{\EXCLAIMSPIEuspechttp}[1]{\linkarticle{\EXCLAIMSPIEuspec}{https://doi.org/10.1117/12.2562446}{#1}}
+
+\newcommand{\EXCLAIMSPIEoptics}{T.\ Essinger-Hileman, T.\ Oxholm, G.\ Siebert,
+EXCLAIM Collaboration, `` Optical Design of the Experiment for Cryogenic
+Large-Aperture Intensity Mapping (EXCLAIM)," {\em Proc. SPIE}~{\bf 114530H}
+(2020).}
+\newcommand{\EXCLAIMSPIEopticshttp}[1]{\linkarticle{\EXCLAIMSPIEoptics}{https://doi.org/10.1117/12.2576254}{#1}}
+
+\newcommand{\EXCLAIMSPIE}{G.\ Cataldo, EXCLAIM Collaboration, ``Overview
+and status of EXCLAIM, the experiment for cryogenic large-aperture intensity
+mapping," {\em Proc. SPIE}~{\bf 1144524} (2020).}
+\newcommand{\EXCLAIMSPIEhttp}[1]{\linkarticle{\EXCLAIMSPIE}{https://doi.org/10.1117/12.2561069}{#1}}
+
 \newcommand{\PIPERwindows}{R.\ Datta, PIPER collaboration, ``Anti-reflection-coated vacuum window for the PIPER balloon-borne instrument" {\em RSI submitted} (Sept. 2020).}
 
 \newcommand{\ACTfourpower}{S.\ K.\ Choi, M.\ Hasselfield, S.\ P.\ Ho, B.\ Koopman, M.\ Lungu, ACT Collaboration, ``The Atacama Cosmology Telescope: A Measurement of the Cosmic Microwave Background Power Spectra at 98 and 150 GHz" {\em ApJ submitted} (Jul. 2020).}
@@ -1161,6 +1177,9 @@ asteroid 72-Feronia, submitted to Harvard small planet catalog. (1998).}
 \newcommand{\reports}[1]{
 \reshead{Proceedings, Reports}
 \begin{enumerate}
+\item \EXCLAIMSPIEuspechttp{#1}
+\item \EXCLAIMSPIEopticshttp{#1}
+\item \EXCLAIMSPIEhttp{#1}
 \item \spectralvoyagehttp{#1}
 \item \lambdaprimerhttp{#1}
 \item \Decadal
