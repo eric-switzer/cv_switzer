@@ -1,4 +1,4 @@
-\newcommand{\lastupdated}{June 1, 2021}
+\newcommand{\lastupdated}{July 7, 2021}
 
 \definecolor{light-gray}{gray}{0.60}
 \definecolor{dark-gray}{gray}{0.30}
@@ -53,20 +53,16 @@
 \newcommand{\comptonhonors}{Compton Lecture Series, ``The Physics of Energy Devices," University of Chicago, fall 2009.}
 \newcommand{\comptonhonorshttp}[1]{\linkarticle{\comptonhonors}{http://cita.utoronto.ca/~eswitzer/compton/}{#1}}
 
-% Five-year service award
-% Distinguished performance 2018
-% Distinguished performance 2017
-% Distinguished performance 2016
-% Distinguished performance 2015
-% Exceeds performance 2014 (started work)
 \newcommand{\honors}[1]{
 \begin{resitem}
 \item \reshead{Honors and awards}
+% distinguished 2021, 7/21
 \item 2021 NASA Special Act Award: For leadership of the successful Preliminary Design Review for the EXCLAIM mission.
 % distinguished 2020, 8/20
 \item 2020 NASA Special Act Award: Mentorship (students lead roles in 7 EXCLAIM reviews)
 % distinguished 2019, 7/19
 \item 2019 NASA Special Act Award: In recognition of EXCLAIM APRA success
+% Five-year service award
 % 2018 distinguished
 \item 2017 NASA Special Act Award (Team): PIPER mission engineering flight
 % 2017 distinguished
@@ -75,6 +71,7 @@
 \item 2015 NASA Special Act Award (Team): LAMBDA contributions to HEASARC Senior Review
 % ACT$ CMB lensing
 \item 2015 APS, ACT Recognized among 32 most influential papers in General Relativity Centennial
+% Exceeds performance 2014 (started work)
 \item 2014 NASA Special Act Award: Lead contributions to PIPER detector readout and flight software
 \item CITA Senior Research Associate, 2011-2013
 \item Compton Lecture Series, ``The Physics of Energy Devices," University of Chicago, fall 2009
@@ -165,6 +162,7 @@ Sep. 2004 -- May 2005 & Introductory General Physics, Labs (Teaching Assistantsh
 \newcommand{\advising}[1]{
 ~\\ \reshead{Advising}\\~\\
 \begin{tabular}{l p{12cm}} %\multicolumn{2}{l}
+Summer 2021 & NASA interns (EXLCAIM): Tyler Cascalho Cox, Gina Pantano (Trevor Oxholm, joint), Sarah Stewart and Joseph Watson (T. Essinger-Hileman joint), Angelo Gannon (Tatsat Parekh primary) \\
 Fall 2019 -- & UW Madison Graduate Student, EXCLAIM (UMD Faculty Advisor: P. Timbie): Trevor Oxholm \\
 Spring 2019 -- & UMD Graduate Student, EXCLAIM (UMD Faculty Advisor: A. Bolatto): Carrie Volpert \\
 Spring 2018 -- & JHU Postdoc, Intensity Mapping: Chris Anderson \\
@@ -262,7 +260,14 @@ Dec. 2013 & NASA Goddard Orientation \\
 %------------------------------------------------------------------------------
 %publication definitions
 %------------------------------------------------------------------------------
-\newcommand{\OIIIxCII}{H.\ Padmanabhan, P.\ Breysse, A.\ Lidz, {\bf E.\ R.\ Switzer}, ``Intensity mapping from the sky: synergizing the joint potential of [OIII] and [CII] surveys at reionization" {\em Submitted to MNRAS} (2021).}
+\newcommand{\IMCVevade}{T.\ M.\ Oxholm, {\bf E.\ R.\ Switzer}, ``Intensity
+mapping without cosmic variance" {\rm Submitted to PRD} (2021).}
+\newcommand{\IMCVevadehttp}[1]{\linkarticle{\IMCVevade}{https://arxiv.org/abs/2107.02111}{#1}}
+
+\newcommand{\OIIIxCII}{H.\ Padmanabhan, P.\ Breysse, A.\ Lidz, {\bf E.\ R.\
+Switzer}, ``Intensity mapping from the sky: synergizing the joint potential of
+[OIII] and [CII] surveys at reionization" {\em Submitted to MNRAS} (2021).}
+\newcommand{\OIIIxCIIhttp}[1]{\linkarticle{\OIIIxCII}{https://arxiv.org/abs/2105.12148}{#1}}
 
 \newcommand{\EXCLAIMdesign}{{\bf E.\ R.\ Switzer}, EXCLAIM collaboration,
 ``Experiment for Cryogenic Large-Aperture Intensity Mapping: Instrument design"
@@ -1142,7 +1147,8 @@ asteroid 72-Feronia, submitted to Harvard small planet catalog. (1998).}
 \newcommand{\preprints}[1]{
 \reshead{Submitted Publications}
 \begin{enumerate}
-\item \OIIIxCII
+\item \IMCVevadehttp{#1}
+\item \OIIIxCIIhttp{#1}
 \item \EXCLAIMdesign
 \end{enumerate}
 }
