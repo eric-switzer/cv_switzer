@@ -1,4 +1,4 @@
-\newcommand{\lastupdated}{June 26, 2022}
+\newcommand{\lastupdated}{Aug. 5, 2022}
 \definecolor{light-gray}{gray}{0.60}
 \definecolor{dark-gray}{gray}{0.30}
 \newcommand{\ltgray}{\textcolor{light-gray}}
@@ -295,6 +295,16 @@ Recurring safety & ESD operator training, cleanroom, confined spaces, cryogens, 
 %------------------------------------------------------------------------------
 %publication definitions
 %------------------------------------------------------------------------------
+\newcommand{\EXCLAIMSPIECV}{C.\ Volpert, EXCLAIM collaboration, ``Developing a New Generation of Integrated Micro-Spec Far
+Infrared Spectrometers for the EXperiment for Cryogenic Large-Aperture Intensity Mapping (EXCLAIM)," {\em Proceedings SPIE} (2022).}
+\newcommand{\EXCLAIMSPIECVhttp}[1]{\linkarticle{\EXCLAIMSPIECV}{https://ui.adsabs.harvard.edu/abs/2022arXiv220802786V/abstract}{#1}}
+
+\newcommand{\EXCLAIMSPIEMR}{M.\ Rahmani, EXCLAIM collaboration, ``Optical Characterization \& Testbed Development for $\mu$-Spec
+Integrated Spectrometers," {\em Proceedings SPIE} (2022).}
+
+\newcommand{\EXCLAIMSPIETEH}{T.\ Essinger-Hileman, EXCLAIM collaboration, ``EXCLAIM: The EXperiment for Cryogenic Large-Aperture
+Intensity Mapping," {\em Proceedings SPIE} (2022).}
+
 \newcommand{\LiteBIRDPTEP}{LiteBIRD Collaboration, ``Probing Cosmic Inflation with the LiteBIRD
 Cosmic Microwave Background Polarization Survey," {\em Submitted, PTEP} (2022).}
 \newcommand{\LiteBIRDPTEPhttp}[1]{\linkarticle{\LiteBIRDPTEP}{https://arxiv.org/pdf/2202.02773.pdf}{#1}}
@@ -310,21 +320,23 @@ Cryogenic Large-Aperture Intensity Mapping: instrument design," {\em J. Astron.
 Telesc. Instrum. Syst.}~{\bf 7}(4), 044004 (2021).}
 \newcommand{\EXCLAIMdesignhttp}[1]{\linkarticle{\EXCLAIMdesign}{http://dx.doi.org/10.1117/1.JATIS.7.4.044004}{#1}}
 
+% This needs to be updated
 \newcommand{\KIDoptimum}{T.\ M.\ Oxholm, {\bf E.\ R.\ Switzer}, E.\ M.\
 Barrentine, T.\ Essinger-Hileman, J.\ P.\ Hays-Wehle, P.\ D.\ Mauskopf, A.\ K.\
 Sinclair, T.\ R.\ Stevenson, P.\ T.\ Timbie, C.\ Volpert, ``Operational
 Optimization to Maximize Dynamic Range in EXCLAIM Microwave Kinetic Inductance
-Detectors" {\em Submitted JLTP} (Nov. 2021).}
-\newcommand{\KIDoptimumhttp}[1]{\linkarticle{\KIDoptimum}{}{#1}}
+Detectors" {\em JLTP} (Jul. 2021).}
+\newcommand{\KIDoptimumhttp}[1]{\linkarticle{\KIDoptimum}{https://ui.adsabs.harvard.edu/abs/2022JLTP..tmp..162O/abstract}{#1}}
 
 \newcommand{\IMCVevade}{T.\ M.\ Oxholm, {\bf E.\ R.\ Switzer}, ``Intensity
 mapping without cosmic variance" {\em PRD}~{\bf 104}(8) 083501 (2021).}
 \newcommand{\IMCVevadehttp}[1]{\linkarticle{\IMCVevade}{https://ui.adsabs.harvard.edu/abs/2021PhRvD.104h3501O/abstract}{#1}}
 
+% This needs to be updated
 \newcommand{\OIIIxCII}{H.\ Padmanabhan, P.\ Breysse, A.\ Lidz, {\bf E.\ R.\
 Switzer}, ``Intensity mapping from the sky: synergizing the joint potential of
-[OIII] and [CII] surveys at reionization" {\em Submitted to MNRAS} (2021).}
-\newcommand{\OIIIxCIIhttp}[1]{\linkarticle{\OIIIxCII}{https://arxiv.org/abs/2105.12148}{#1}}
+[OIII] and [CII] surveys at reionization" {\em MNRAS}~stac2025 (2022).}
+\newcommand{\OIIIxCIIhttp}[1]{\linkarticle{\OIIIxCII}{https://doi.org/10.1093/mnras/stac2025}{#1}}
 
 \newcommand{\PIPERpumps}{A.\ Kogut, T.\ Essinger-Hileman, {\bf E.\ R.\
 Switzer}, E.\ Wollack, D.\ Fixsen, L.\ Lowe, P.\ Mirel, ``Superfluid Liquid Helium Control for the Primordial
@@ -1203,14 +1215,14 @@ asteroid 72-Feronia, submitted to Harvard small planet catalog. (1998).}
 \reshead{Submitted Publications}
 \begin{enumerate}
 \item \LiteBIRDPTEPhttp{#1}
-\item \KIDoptimum
-\item \OIIIxCIIhttp{#1}
 \end{enumerate}
 }
 
 \newcommand{\refereed}[1]{
 \reshead{Refereed Publications}
 \begin{enumerate}
+\item \OIIIxCIIhttp{#1}
+\item \KIDoptimumhttp{#1}
 \item \FIRASBOSShttp{#1}
 \item \EXCLAIMdesignhttp{#1}
 \item \IMCVevadehttp{#1}
@@ -1299,6 +1311,9 @@ asteroid 72-Feronia, submitted to Harvard small planet catalog. (1998).}
 \newcommand{\reports}[1]{
 \reshead{Proceedings, Reports}
 \begin{enumerate}
+\item \EXCLAIMSPIETEH
+\item \EXCLAIMSPIECVhttp{#1}
+\item \EXCLAIMSPIEMR
 \item \LiteBIRDMHFThttp{#1}
 \item \LiteBIRDLFThttp{#1}
 \item \LiteBIRDoverviewhttp{#1}
