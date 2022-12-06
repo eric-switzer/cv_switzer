@@ -1,4 +1,4 @@
-\newcommand{\lastupdated}{Nov. 11, 2022}
+\newcommand{\lastupdated}{Dec. 6, 2022}
 \definecolor{light-gray}{gray}{0.60}
 \definecolor{dark-gray}{gray}{0.30}
 \newcommand{\ltgray}{\textcolor{light-gray}}
@@ -320,6 +320,11 @@ Recurring safety & ESD operator training, cleanroom, confined spaces, cryogens, 
 %------------------------------------------------------------------------------
 %publication definitions
 %------------------------------------------------------------------------------
+\newcommand{\PIPERdetectors}{R.\ Datta, S.\ Dahal, {\bf E.\ R.\ Switzer}, PIPER
+collaboration, ``Characterization of Low-noise Backshort-Under-Grid Kilopixel
+Transition Edge Sensor Arrays for PIPER," {\em submitted JATIS} (2022).}
+\newcommand{\PIPERdetectorshttp}[1]{\linkarticle{\PIPERdetectors}{https://arxiv.org/pdf/2212.01370.pdf}{#1}}
+
 \newcommand{\EXCLAIMforecast}{A.\ R.\ Pullen, P.\ C.\ Breysse, T.\ Oxholm, {\bf
 E.\ R.\ Switzer}, EXCLAIM Science Team, ``Extragalactic Science with the Experiment for
 Cryogenic Large-aperture Intensity Mapping," {\em Submitted, MNRAS} (2022).}
@@ -336,8 +341,8 @@ Integrated Spectrometers," {\em Proceedings SPIE} (2022).}
 Intensity Mapping," {\em Proceedings SPIE} (2022).}
 
 \newcommand{\LiteBIRDPTEP}{LiteBIRD Collaboration, ``Probing Cosmic Inflation with the LiteBIRD
-Cosmic Microwave Background Polarization Survey," {\em Submitted, PTEP} (2022).}
-\newcommand{\LiteBIRDPTEPhttp}[1]{\linkarticle{\LiteBIRDPTEP}{https://arxiv.org/pdf/2202.02773.pdf}{#1}}
+Cosmic Microwave Background Polarization Survey," {\em PTEP}~{\bf 150} (2022).}
+\newcommand{\LiteBIRDPTEPhttp}[1]{\linkarticle{\LiteBIRDPTEP}{https://doi.org/10.1093/ptep/ptac150}{#1}}
 
 \newcommand{\FIRASBOSS}{C.\ J.\ Anderson, {\bf E.\ R.\ Switzer}, P. C. Breysse,
 ``Constraining low redshift [C II] Emission by Cross-Correlating FIRAS and BOSS
@@ -1249,14 +1254,15 @@ asteroid 72-Feronia, submitted to Harvard small planet catalog. (1998).}
 \newcommand{\preprints}[1]{
 \reshead{Submitted Publications}
 \begin{enumerate}
+\item \PIPERdetectorshttp{#1}
 \item \EXCLAIMforecasthttp{#1}
-\item \LiteBIRDPTEPhttp{#1}
 \end{enumerate}
 }
 
 \newcommand{\refereed}[1]{
 \reshead{Refereed Publications}
 \begin{enumerate}
+\item \LiteBIRDPTEPhttp{#1}
 \item \OIIIxCIIhttp{#1}
 \item \KIDoptimumhttp{#1}
 \item \FIRASBOSShttp{#1}
