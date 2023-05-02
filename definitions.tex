@@ -1,4 +1,4 @@
-\newcommand{\lastupdated}{Mar. 21, 2023}
+\newcommand{\lastupdated}{May 2, 2023}
 \definecolor{light-gray}{gray}{0.60}
 \definecolor{dark-gray}{gray}{0.30}
 \newcommand{\ltgray}{\textcolor{light-gray}}
@@ -332,6 +332,15 @@ Recurring safety & ESD operator training, cleanroom, confined spaces, cryogens, 
 %------------------------------------------------------------------------------
 %publication definitions
 %------------------------------------------------------------------------------
+\newcommand{\ACTsixlensmap}{M.\ Madhavacheril, F.\ Qu, B.\ Sherwin, ACT Collaboration, ``The Atacama Cosmology Telescope: DR6 Gravitational Lensing Map and Cosmological Parameters," {\em Submitted ApJ} (2023).}
+\newcommand{\ACTsixlensmaphttp}[1]{\linkarticle{\ACTsixlensmap}{https://ui.adsabs.harvard.edu/abs/2023arXiv230405203M/abstract}{#1}}
+
+\newcommand{\ACTsixlenscosmo}{F.\ Qu, B.\ Sherwin, ACT Collaboration, ``The Atacama Cosmology Telescope: A Measurement of the DR6 CMB Lensing Power Spectrum and its Implications for Structure Growth," {\em Submitted ApJ} (2023).}
+\newcommand{\ACTsixlenscosmohttp}[1]{\linkarticle{\ACTsixlenscosmo}{https://ui.adsabs.harvard.edu/abs/2023arXiv230405202Q/abstract}{#1}}
+
+\newcommand{\PIXIEsyst}{A.\ Kogut, D.\ Fixsen, PIXIE Collaboration, ``Systematic error mitigation for the PIXIE Fourier transform spectrometer," {\em Submitted JCAP} (2023).}
+\newcommand{\PIXIEsysthttp}[1]{\linkarticle{\PIXIEsyst}{https://ui.adsabs.harvard.edu/abs/2023arXiv230400091K/abstract}{#1}}
+
 \newcommand{\LBOMT}{J.\ Hubmayr, LiteBIRD collaboration, ``Optical Characterization of OMT-Coupled TES Bolometers for LiteBIRD," {\em JLTP}~{\bf 209}(3-4) (2023).}
 \newcommand{\LBOMThttp}[1]{\linkarticle{\LBOMT}{https://ui.adsabs.harvard.edu/abs/2022JLTP..209..396H/abstract}{#1}}
 
@@ -339,8 +348,9 @@ Recurring safety & ESD operator training, cleanroom, confined spaces, cryogens, 
 \newcommand{\LBsens}{T.\ Hasebe, LiteBIRD collaboration, ``Sensitivity Modeling for LiteBIRD," {\em JLTP} 10.1007/s10909-022-02921-7 (2023).}
 \newcommand{\LBsenshttp}[1]{\linkarticle{\LBsens}{https://ui.adsabs.harvard.edu/abs/2022JLTP..tmp..284H/}{#1}}
 
-\newcommand{\DESlensing}{J.\ Prat, G.\ Zacharegkas, Y.\ Park, N.\ MacCrann, {\bf E.\ R.\ Switzer}, DES Collaboration, ``Non-local contribution from small scales in galaxy-galaxy lensing: Comparison of mitigation schemes," {\em submitted MNRAS} (2022).}
-\newcommand{\DESlensinghttp}[1]{\linkarticle{\DESlensing}{https://arxiv.org/abs/2212.03734}{#1}}
+% June 2023
+\newcommand{\DESlensing}{J.\ Prat, G.\ Zacharegkas, Y.\ Park, N.\ MacCrann, {\bf E.\ R.\ Switzer}, DES Collaboration, ``Non-local contribution from small scales in galaxy-galaxy lensing: Comparison of mitigation schemes," {\em MNRAS}~{\bf 522}(1) (2023).}
+\newcommand{\DESlensinghttp}[1]{\linkarticle{\DESlensing}{https://ui.adsabs.harvard.edu/abs/2023MNRAS.522..412P/abstract}{#1}}
 
 \newcommand{\PIPERdetectors}{R.\ Datta, S.\ Dahal, {\bf E.\ R.\ Switzer}, PIPER
 collaboration, ``Characterization of Low-noise Backshort-Under-Grid Kilopixel
@@ -349,8 +359,8 @@ Transition Edge Sensor Arrays for PIPER," {\em submitted JATIS} (2022).}
 
 \newcommand{\EXCLAIMforecast}{A.\ R.\ Pullen, P.\ C.\ Breysse, T.\ Oxholm, {\bf
 E.\ R.\ Switzer}, EXCLAIM Science Team, ``Extragalactic Science with the Experiment for
-Cryogenic Large-aperture Intensity Mapping," {\em Submitted, MNRAS} (2022).}
-\newcommand{\EXCLAIMforecasthttp}[1]{\linkarticle{\EXCLAIMforecast}{https://arxiv.org/pdf/2209.02497.pdf}{#1}}
+Cryogenic Large-aperture Intensity Mapping," {\em MNRAS}~{\bf 521}(4) (2022).}
+\newcommand{\EXCLAIMforecasthttp}[1]{\linkarticle{\EXCLAIMforecast}{https://ui.adsabs.harvard.edu/abs/2023MNRAS.521.6124P/abstract}{#1}}
 
 \newcommand{\EXCLAIMSPIECV}{C.\ Volpert, EXCLAIM collaboration, ``Developing a New Generation of Integrated Micro-Spec Far
 Infrared Spectrometers for the EXperiment for Cryogenic Large-Aperture Intensity Mapping (EXCLAIM)," {\em Proceedings SPIE} (2022).}
@@ -1276,15 +1286,18 @@ asteroid 72-Feronia, submitted to Harvard small planet catalog. (1998).}
 \newcommand{\preprints}[1]{
 \reshead{Submitted Publications}
 \begin{enumerate}
-\item \DESlensinghttp{#1}
+\item \ACTsixlensmaphttp{#1}
+\item \ACTsixlenscosmohttp{#1}
+\item \PIXIEsysthttp{#1}
 \item \PIPERdetectorshttp{#1}
-\item \EXCLAIMforecasthttp{#1}
 \end{enumerate}
 }
 
 \newcommand{\refereed}[1]{
 \reshead{Refereed Publications}
 \begin{enumerate}
+\item \DESlensinghttp{#1}
+\item \EXCLAIMforecasthttp{#1}
 \item \LBOMThttp{#1}
 \item \LBsenshttp{#1}
 \item \LiteBIRDPTEPhttp{#1}
