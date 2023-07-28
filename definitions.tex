@@ -1,4 +1,4 @@
-\newcommand{\lastupdated}{June 17, 2023}
+\newcommand{\lastupdated}{July 28, 2023}
 \definecolor{light-gray}{gray}{0.60}
 \definecolor{dark-gray}{gray}{0.30}
 \newcommand{\ltgray}{\textcolor{light-gray}}
@@ -24,7 +24,7 @@
 \begin{minipage}[t]{0.5\textwidth}
   {\tt eric.r.switzer at nasa.gov} \\
   Office: 301-614-5174 \\
-  Cell: 240-547-8963 \\
+  %Cell: 240-547-8963 \\
   %\href{https://github.com/eric-switzer}{\tt https://github.com/eric-switzer } \\
   Updated: {#1}
 \end{minipage}\vspace{0.5cm}
@@ -42,18 +42,46 @@
 %\item Rolla High School, Rolla Missouri
 \end{resitem}
 
-Dr. Eric Switzer has over 15 years of experience in research related to
-observations of cosmic background radiation from radio to far-IR wavelengths.
-His work spans all phases of the project life cycle through concept, design,
-integration and test, analysis, and data archival. His scientific interests
-include redshifted line intensity mapping, cosmic microwave background
-anisotropies, and systems engineering to establish the requirements and design
-for next-generation missions. Dr. Switzer is PI of the EXCLAIM mission, and led
-cryogenic receiver and flight software development for the PIPER mission.
-Before starting at NASA, he led the analysis of 21 cm intensity mapping data
-acquired with the Green Bank Telescope, worked to develop and commission the
-Atacama Cosmology Telescope, and developed an accurate theory of cosmological
-helium recombination.\\
+Dr. Eric Switzer is a cosmologist with expertise in large-scale structure and
+cosmic background radiation observations. He has led or participated in project
+phases through concept, design, integration and test, analysis, and data
+archival. He is interested in redshifted line intensity mapping, cosmic
+microwave background anisotropies, and systems engineering for next-generation
+missions. Dr. Switzer leads the EXCLAIM mission and contributed to the PIPER
+mission's cryogenic receiver and flight software development. He is the Roman
+Space Telescope Wide Field Instrument Integration and Test Project Scientist.
+Before NASA, he analyzed 21 cm intensity mapping data from the Green Bank
+Telescope, was part of the team that developed the Atacama Cosmology
+Telescope, and refined the theory of cosmological helium
+recombination.\\
+
+%Dr. Eric Switzer specializes in research related to cosmology from large scale
+%structure and observations of cosmic background radiation from radio to far-IR
+%wavelengths. His work spans all phases of the project life cycle through
+%concept, design, integration and test, analysis, and data archival. His
+%scientific interests include galaxy evolution and large scale structure from
+%redshifted line intensity mapping, cosmic microwave background anisotropies,
+%and systems engineering to establish the requirements and design for
+%next-generation missions. Dr. Switzer is PI of the EXCLAIM balloon mission, and
+%led cryogenic receiver and flight software development for the PIPER balloon
+%mission. He serves as the Roman Space Telescope Wide Field Instrument
+%Integration and Test Project Scientist. Before starting at NASA, he led the
+%analysis of 21 cm intensity mapping data acquired with the Green Bank
+%Telescope, worked to develop and commission the Atacama Cosmology Telescope,
+%and developed an accurate theory of cosmological helium recombination.\\
+
+%Dr. Eric Switzer has over 15 years of experience in research related to
+%observations of cosmic background radiation from radio to far-IR wavelengths.
+%His work spans all phases of the project life cycle through concept, design,
+%integration and test, analysis, and data archival. His scientific interests
+%include redshifted line intensity mapping, cosmic microwave background
+%anisotropies, and systems engineering to establish the requirements and design
+%for next-generation missions. Dr. Switzer is PI of the EXCLAIM mission, and led
+%cryogenic receiver and flight software development for the PIPER mission.
+%Before starting at NASA, he led the analysis of 21 cm intensity mapping data
+%acquired with the Green Bank Telescope, worked to develop and commission the
+%Atacama Cosmology Telescope, and developed an accurate theory of cosmological
+%helium recombination.\\
 
 %Dr. Switzer's research areas include CMB temperature and polarization
 %anisotropies, redshifted line tomography, atomic physics in cosmological
@@ -76,9 +104,10 @@ helium recombination.\\
 \newcommand{\honors}[1]{
 \begin{resitem}
 \item \reshead{Honors and Awards}
-\item 2022 Robert H. Goddard Award for Mentoring
 % distinguished 2023, 6/23
 % distinguished 2022, 6/22
+\item 2023 NASA Special Act Award: For leadership of the successful CDR for the EXCLAIM mission
+\item 2022 Robert H. Goddard Award for Mentoring
 \item 2021 NASA Special Act and Goddard Science and Exploration Directorate Award for Mentorship
 % distinguished 2021, 7/21
 \item 2021 NASA Special Act Award: For leadership of the successful PDR for the EXCLAIM mission
@@ -336,6 +365,9 @@ Recurring safety & ESD operator training, cleanroom, confined spaces, cryogens, 
 %------------------------------------------------------------------------------
 %publication definitions
 %------------------------------------------------------------------------------
+\newcommand{\ACTthirdmaps}{W.\ R.\ Coulton, ACT Collaboration, The Atacama Cosmology Telescope: High-resolution component-separated maps across one-third of the sky," {\em Submitted ApJ} (2023).}
+\newcommand{\ACTthirdmapshttp}[1]{\linkarticle{\ACTthirdmaps}{https://ui.adsabs.harvard.edu/abs/2023arXiv230701258C/abstract}{#1}}
+
 \newcommand{\ACTsixlensmap}{M.\ Madhavacheril, F.\ Qu, B.\ Sherwin, ACT Collaboration, ``The Atacama Cosmology Telescope: DR6 Gravitational Lensing Map and Cosmological Parameters," {\em Submitted ApJ} (2023).}
 \newcommand{\ACTsixlensmaphttp}[1]{\linkarticle{\ACTsixlensmap}{https://ui.adsabs.harvard.edu/abs/2023arXiv230405203M/abstract}{#1}}
 
@@ -1290,6 +1322,7 @@ asteroid 72-Feronia, submitted to Harvard small planet catalog. (1998).}
 \newcommand{\preprints}[1]{
 \reshead{Submitted Publications}
 \begin{enumerate}
+\item \ACTthirdmapshttp{#1}
 \item \ACTsixlensmaphttp{#1}
 \item \ACTsixlenscosmohttp{#1}
 \item \PIXIEsysthttp{#1}
